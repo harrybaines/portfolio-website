@@ -30,16 +30,20 @@
         }
         #about {
             height: 300px;
-
         }
         #highlight {
             padding: 50px;
             text-align: left;
-            width: 600px;
-            margin: 0 auto;
+            max-width: 800px;
+            margin: 25px auto;
+        }
+        #highlight img {
+            border-radius: 50%;
+            max-width: 190px;
+            max-height: 190px;
         }
         #highlight p {
-            font-size: 1.25rem;
+            font-size: 1.15rem;
         }
         .center {
             margin: 0;
@@ -91,12 +95,51 @@
             list-style-type: none;
             padding: 0;
         }
+        #projects-list li h3 {
+        }
         #projects-list li p {
             font-size: 1.1rem;
         }
         footer {
             height: 100px;
             line-height: 100px;
+        }
+        .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+        }
+        .blue-column {
+            /* background-color: blue; */
+            height: 100%;
+            margin: 0 auto;
+        }
+        .green-column {
+            /* background-color: green; */
+            height: 100%;
+            margin-top: 20px;
+        }
+        .double-column {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+        }
+        @media screen and (min-width: 800px) {
+            .column {
+                flex: 1;
+            }
+            .green-column {
+                margin: 10px 0px;
+            }
+            .double-column {
+                flex: 2
+            }
         }
     </style>
 </head>
@@ -110,9 +153,25 @@
         </div>
     </section>
     <section id="highlight">
-        <p>I'm the AI guy.</p>
-        <p>I like to train deep neural nets.</p>
-        <p>You can find me on Twitter, GitHub and LinkedIn.</p>
+        <div class='row'>
+            <div class='column'>
+                <div class='blue-column'>
+                    <img src="./images/me.png" />
+                </div>
+            </div>
+            <div class='double-column'>
+                <div class='green-column'>
+                    <p>I'm the AI guy.</p>
+                    <p>I like to train neural nets.</p>
+                    <p>I also enjoy hands-on engineering.</p>
+                    <p>You can find me on 
+                        <a href="">Twitter</a>,
+                        <a href="">GitHub</a> and
+                        <a href="">LinkedIn</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- <section id="about-container" class="skewy">
         <h1>About Me</h1>
@@ -138,11 +197,7 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script>
         var app = document.getElementById('name');
-
-        var typewriter = new Typewriter(app, {
-            loop: false
-        });
-
+        var typewriter = new Typewriter(app);
         typewriter.typeString('Harry Baines').pauseFor(2500).start();
     </script>
 </body>
