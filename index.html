@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0 auto;
+            text-align: center;
+            font-family: 'Source Code Pro', monospace;
+        }
+        h1 {
+            font-size: 3.5rem;
+            margin: 0px;
+        }
+        p {
+            font-size: 1.5rem;
+            margin: 14px 0px;
+        }
+        .container { 
+            height: 1000px;
+            position: relative;
+            background-color: rgb(42, 45, 58);
+        }
+        #about {
+            height: 300px;
+
+        }
+        #highlight {
+            padding: 50px;
+            text-align: left;
+            width: 600px;
+            margin: 0 auto;
+        }
+        #highlight p {
+            font-size: 1.25rem;
+        }
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        #summary-container {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            text-align: left;
+            color: white;
+        }
+        #name {
+            width: 425px;
+            overflow: visible;
+        } 
+        #about-container {
+            /* background-color: red; */
+            /* background-image: -webkit-linear-gradient(120deg, white 35%, rgb(42, 45, 58) 35%); */
+            min-height: 500px;
+        }
+        .skewy {
+            width: 800px;
+            height: 800px;
+            background: purple;
+            background-color: rgb(42, 45, 58);
+            /* clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%); */
+            padding: 10rem 20%;
+        }
+        #projects-container {
+            min-height: 500px;
+            background-color: white;
+            padding: 125px 0px;
+        }
+        #projects-container h1 {
+            font-size: 2rem;
+            margin: 25px 0px;
+        }
+        #projects-container #projects {
+            text-align: left;
+            width: 700px;
+            margin: 0 auto;
+        }
+        #projects-container #projects #projects-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        #projects-list li p {
+            font-size: 1.1rem;
+        }
+        footer {
+            height: 100px;
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="center">
+            <div id="summary-container">
+                <h1 id="name">Harry Baines</h1>
+                <p>Machine Learning Engineer</p>
+            </div>
+        </div>
+    </section>
+    <section id="highlight">
+        <p>I'm the AI guy.</p>
+        <p>I like to train deep neural nets.</p>
+        <p>You can find me on Twitter, GitHub and LinkedIn.</p>
+    </section>
+    <!-- <section id="about-container" class="skewy">
+        <h1>About Me</h1>
+    </section> -->
+    <section id="projects-container">
+        <h1>Projects 👨‍💻</h1>
+        <div id="projects">
+            <ul id="projects-list">
+                <li>
+                    <h3>Monte Carlo Tree Search AI for Tic-Tac-Toe</h3>
+                    <p>Solving blah blah ...</p>
+                </li>
+                <li>
+                    <h3>This website</h3>
+                    <p>Handcrafted with HTML, CSS and JS. No fancy frameworks.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        Copyright Harry Baines 2022
+    </footer>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+        var app = document.getElementById('name');
+
+        var typewriter = new Typewriter(app, {
+            loop: false
+        });
+
+        typewriter.typeString('Harry Baines').pauseFor(2500).start();
+    </script>
+</body>
+</html>
