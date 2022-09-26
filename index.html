@@ -1,205 +1,116 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harry Baines</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="http://fonts.cdnfonts.com/css/open-sans" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body {
-            margin: 0 auto;
-            text-align: center;
-            font-family: ui-monospace, 'Source Code Pro', monospace;
-            font-weight: 400;
-            color: rgb(17, 24, 39);
-        }
-        section {
-          padding: 100px 0px;
-        }
-        #highlight {
-            padding: 125px 0px;
-            text-align: left;
-            max-width: 900px;
-        }
-        #highlight img {
-            border-radius: 50%;
-            max-width: 170px;
-            max-height: 170px;
-            border: 1px solid white;
-            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-        }
-        #projects-container {
-            min-height: 500px;
-            background-color: rgb(247, 247, 247);
-        }
-        #projects-list,
-        #posts-list {
-            list-style-type: none;
-            padding: 0;
-        }
-        .row {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            width: 100%;
-        }
-        .column {
-            display: flex;
-            flex-direction: column;
-            flex-basis: 100%;
-        }
-        .blue-column {
-            height: 100%;
-            margin: 0 auto;
-        }
-        .green-column {
-            height: 100%;
-            margin-top: 20px;
-            line-height: 30px;
-        }
-        .double-column {
-            display: flex;
-            flex-direction: column;
-            flex-basis: 100%;
-        }
-        @media screen and (min-width: 800px) {
-            .column {
-                flex: 1;
-            }
-            .green-column {
-                margin: 30px 0px;
-            }
-            .double-column {
-                flex: 2;
-            }
-        }
-    </style>
-</head>
-<body>
-    <section id="highlight" class="my-40 m-auto">
-        <div class='row'>           
-            <div class='column'>
-                <div class='blue-column'>
-                    <img src="./images/me.png" />
-                </div>
-            </div>
-            <div class='double-column'>
-                <div class='green-column'>
-                    <h1 id='name' class="font-bold mb-4 text-2xl"></h1>
-                    <p class="font-light text-base">
-                        I'm the AI guy. I like training machine learning models and
-                        engineering software. You can find me on 
-                        <a href="">Twitter</a>,
-                        <a href="">GitHub</a>,
-                        <a href="">Kaggle</a> and
-                        <a href="">LinkedIn</a>.
-                    </p>
-                </div>
+---
+layout: default
+title: Home
+---
+
+<section id="highlight" class="my-40 m-auto">
+    <div class='row'>           
+        <div class='column'>
+            <div class='blue-column'>
+                <img src="./images/me.png" />
             </div>
         </div>
-    </section>
-    <section class="text-left bg-gray-50">
-        <h1 class="font-semibold text-3xl mb-12 text-center">Projects 👨‍💻</h1>
-        <div class="m-auto max-w-[90%] md:max-w-[44rem]">
-            <ul id="projects-list">
-                <li class="rounded bg-white shadow cursor-pointer hover:shadow-md">
-                    <a href="https://ttt-ai-mcts.herokuapp.com" target="_blank" class="flex flex-wrap items-start px-4 py-2 mb-4">
-                        <p class="flex-shrink-0 mr-2 flex items-center text-gray-900">Solving Tic-Tac-Toe with AI</p>
-                        <p class="text-gray-500 font-light">Using Monte Carlo Tree Search to solve Tic-Tac-Toe</p>
-                    </a>
-                </li>
-                <li class="rounded bg-white shadow cursor-pointer hover:shadow-md">
-                    <a href="#" class="flex flex-wrap items-start px-4 py-2 mb-4">
-                        <p class="flex-shrink-0 mr-2 flex items-center text-gray-900">Digging Grantmaking Data</p>
-                        <p class="text-gray-500 font-light">Understanding grant data with machine learning</p>
-                    </a>
-                </li>
-                <li class="rounded bg-white shadow cursor-pointer hover:shadow-md">
-                    <a href="https://www.ca-tms.com" target="_blank" class="flex flex-wrap items-start px-4 py-2 mb-4">
-                        <p class="flex-shrink-0 mr-2 flex items-center text-gray-900">Time Management System</p>
-                        <p class="text-gray-500 font-light">Facilitates time record entry and tracking for ongoing projects</p>
-                    </a>
-                </li>
-                <li class="rounded bg-white shadow cursor-pointer hover:shadow-md">
-                    <a href="#" class="flex flex-wrap items-start px-4 py-2 mb-4">
-                        <p class="flex-shrink-0 mr-2 flex items-center text-gray-900">Portfolio Website</p>
-                        <p class="text-gray-500 font-light">Handcrafted with HTML, CSS, Tailwind and JavaScript</p>
-                    </a>
-                </li>
-            </ul>
+        <div class='double-column'>
+            <div class='green-column'>
+                <h1 id='name' class="font-bold mb-4 text-2xl"></h1>
+                <p class="font-light text-base">
+                    I'm the AI guy. I like training machine learning models and
+                    engineering software. You can find me on 
+                    <a href="">Twitter</a>,
+                    <a href="">GitHub</a>,
+                    <a href="">Kaggle</a> and
+                    <a href="">LinkedIn</a>.
+                </p>
+            </div>
         </div>
-    </section>
-    <section class="text-left">
-      <h1 class="font-semibold text-3xl mb-12 text-center">Resources 📚</h1>
-      <div class="m-auto max-w-[90%] md:max-w-[44rem]">
-          <ul class="grid grid-cols-1 md:grid-cols-2 gap-2">
-              <li class="rounded shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
-                  <a href="#">
-                      <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Machine learning project checklist</p>
-                  </a>
-              </li>
-              <li class="rounded shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
-                  <a href="#">
-                      <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Tutorial: Introduction to Machine Learning</p>
-                  </a>
-              </li>
-              <li class="rounded shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
-                  <a href="#">
-                      <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Tutorial: Introduction to Machine Learning</p>
-                  </a>
-              </li>
-              <li class="rounded shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
-                  <a href="#">
-                      <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Tutorial: Introduction to Machine Learning</p>
-                  </a>
-              </li>
-          </ul>
-      </div>
-    </section>
-    <section class="text-left text-sm bg-gray-50">
-        <h1 class="font-semibold text-3xl mb-12 text-center">Posts 📝</h1>
-        <div class="m-auto max-w-[90%] md:max-w-[44rem]">
-            <ul id="posts-list">
-                <li class="rounded bg-white shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
-                    <a href="#">
-                        <p class="text-gray-500 font-light">September 8th, 2019</p>
-                        <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Solving the Monty Hall Problem</p>
-                    </a>
-                </li>
-                <li class="rounded bg-white shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
-                    <a href="#">
-                        <p class="text-gray-500 font-light">August 24th, 2019</p>
-                        <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Creating Pivot Tables with Python</p>
-                    </a>
-                </li>
-                <li class="rounded bg-white shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
-                    <a href="#">
-                        <p class="text-gray-500 font-light">August 19, 2019</p>
-                        <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Converting CSV's to SQL statements</p>
-                    </a>
-                </li>
-                <li class="rounded bg-white shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
-                    <a href="#">
-                        <p class="text-gray-500 font-light">August 13th, 2019</p>
-                        <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Tutorial: Introduction to Machine Learning</p>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <footer class="h-20 text-sm h-[8rem] leading-[8rem]">
-        © Copyright 2022 Harry Baines. All Rights Reserved.
-    </footer>
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script>
-        var app = document.getElementById('name');
-        var typewriter = new Typewriter(app);
-        typewriter.typeString("Hi! I'm Harry 👋").pauseFor(2500).start();
-    </script>
-</body>
-</html>
+    </div>
+</section>
+<section class="bg-gray-50">
+    <h1 class="font-semibold text-3xl mb-12 text-center">Projects 👨‍💻</h1>
+    <div class="m-auto max-w-[90%] md:max-w-[44rem]">
+        <ul id="projects-list">
+            <li class="rounded bg-white shadow cursor-pointer hover:shadow-md">
+                <a href="https://ttt-ai-mcts.herokuapp.com" target="_blank" class="flex flex-wrap items-start px-4 py-2 mb-4">
+                    <p class="flex-shrink-0 mr-2 flex items-center text-gray-900">Solving Tic-Tac-Toe with AI</p>
+                    <p class="text-gray-500 font-light">Using Monte Carlo Tree Search to solve Tic-Tac-Toe</p>
+                </a>
+            </li>
+            <li class="rounded bg-white shadow cursor-pointer hover:shadow-md">
+                <a href="#" class="flex flex-wrap items-start px-4 py-2 mb-4">
+                    <p class="flex-shrink-0 mr-2 flex items-center text-gray-900">Digging Grantmaking Data</p>
+                    <p class="text-gray-500 font-light">Understanding grant data with machine learning</p>
+                </a>
+            </li>
+            <li class="rounded bg-white shadow cursor-pointer hover:shadow-md">
+                <a href="https://www.ca-tms.com" target="_blank" class="flex flex-wrap items-start px-4 py-2 mb-4">
+                    <p class="flex-shrink-0 mr-2 flex items-center text-gray-900">Time Management System</p>
+                    <p class="text-gray-500 font-light">Facilitates time record entry and tracking for ongoing projects</p>
+                </a>
+            </li>
+            <li class="rounded bg-white shadow cursor-pointer hover:shadow-md">
+                <a href="#" class="flex flex-wrap items-start px-4 py-2 mb-4">
+                    <p class="flex-shrink-0 mr-2 flex items-center text-gray-900">Portfolio Website</p>
+                    <p class="text-gray-500 font-light">Handcrafted with HTML, CSS, Tailwind and Jekyll</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+<section>
+  <h1 class="font-semibold text-3xl mb-12 text-center">Resources 📚</h1>
+  <div class="m-auto max-w-[90%] md:max-w-[44rem]">
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-2">
+          <li class="rounded shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
+              <a href="#">
+                  <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Machine learning project checklist</p>
+              </a>
+          </li>
+          <li class="rounded shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
+              <a href="#">
+                  <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Tutorial: Introduction to Machine Learning</p>
+              </a>
+          </li>
+          <li class="rounded shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
+              <a href="#">
+                  <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Tutorial: Introduction to Machine Learning</p>
+              </a>
+          </li>
+          <li class="rounded shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
+              <a href="#">
+                  <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Tutorial: Introduction to Machine Learning</p>
+              </a>
+          </li>
+      </ul>
+  </div>
+</section>
+<section class="text-sm bg-gray-50">
+    <h1 class="font-semibold text-3xl mb-12 text-center">Posts 📝</h1>
+    <div class="m-auto max-w-[90%] md:max-w-[44rem]">
+        <ul id="posts-list">
+            <li class="rounded bg-white shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
+                <a href="#">
+                    <p class="text-gray-500 font-light">September 8th, 2019</p>
+                    <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Solving the Monty Hall Problem</p>
+                </a>
+            </li>
+            <li class="rounded bg-white shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
+                <a href="#">
+                    <p class="text-gray-500 font-light">August 24th, 2019</p>
+                    <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Creating Pivot Tables with Python</p>
+                </a>
+            </li>
+            <li class="rounded bg-white shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
+                <a href="#">
+                    <p class="text-gray-500 font-light">August 19, 2019</p>
+                    <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Converting CSV's to SQL statements</p>
+                </a>
+            </li>
+            <li class="rounded bg-white shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
+                <a href="#">
+                    <p class="text-gray-500 font-light">August 13th, 2019</p>
+                    <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Tutorial: Introduction to Machine Learning</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>

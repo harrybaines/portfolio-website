@@ -1,0 +1,11 @@
+---
+title: Posts
+layout: default
+---
+
+<h1 class="text-center font-bold">Posts</h1>
+<ul class="m-auto md:max-w-[44rem]">
+    {% for post in site.posts %}
+        {% include post-card.html title=post.title date=post.date url=post.url  %}
+    {% endfor %}
+</ul>

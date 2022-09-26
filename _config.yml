@@ -1,0 +1,19 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: Harry Baines
+
+plugins:
+  - jekyll-postcss
+
+postcss:
+  cache: false
+
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:title
