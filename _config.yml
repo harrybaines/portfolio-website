@@ -16,8 +16,8 @@ collections:
     permalink: /:path
   projects:
     output: true
-    permalink: /:collection/:title
-    
+    permalink: /:path
+
 permalink: pretty
 
 navigation:
