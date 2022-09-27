@@ -2,8 +2,8 @@
 ---
 
 @tailwind base;
-@tailwind components;
 @tailwind utilities;
+@tailwind components;
 
 body {
     margin: 0 auto;
@@ -18,13 +18,15 @@ h1 {
     font-size: 1.5rem;
     font-weight: bold;
 }
-.post-content p {
-    margin: 18px 0px;
+.page-content {
+    max-width: 44rem;
+    margin: 0 auto;
 }
-.post-content {
-    font-family: 'Source Serif Pro', serif;
-    font-weight: 400;
-    line-height: 28px;
+.prose {
+    font-family: 'font-sans', 'Source Serif Pro', serif;
+}
+.prose h1 {
+    margin: 48px 0px 16px 0px;
 }
 #highlight {
     padding: 125px 0px;
