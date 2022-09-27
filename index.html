@@ -6,20 +6,21 @@ title: Home
 <section id="highlight" class="my-40 m-auto">
     <div class='row'>           
         <div class='column'>
-            <div class='blue-column'>
+            <div class='left-column'>
                 <img src="./images/me.png" />
             </div>
         </div>
         <div class='double-column'>
-            <div class='green-column'>
-                <h1 id='name' class="font-bold mb-4 text-2xl"></h1>
+            <div class='right-column'>
+                <h1 id='name' class="font-bold mb-4 text-3xl"></h1>
                 <p class="font-light text-base">
-                    I'm the AI guy. I like training machine learning models and
-                    engineering software. You can find me on 
-                    <a href="">Twitter</a>,
-                    <a href="">GitHub</a>,
-                    <a href="">Kaggle</a> and
-                    <a href="">LinkedIn</a>.
+                    I'm the AI guy.
+                    I like training machine learning models and engineering software.
+                    You can find me on 
+                    <a href="{{ site.social.twitter }}" target="_blank">Twitter</a>,
+                    <a href="{{ site.social.github }}" target="_blank">GitHub</a>,
+                    <a href="{{ site.social.kaggle }}" target="_blank">Kaggle</a> and
+                    <a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a>.
                 </p>
             </div>
         </div>
@@ -28,89 +29,12 @@ title: Home
 <section class="bg-gray-50">
     <h1 class="font-semibold text-3xl mb-12 text-center">Projects 👨‍💻</h1>
     <div class="m-auto max-w-[90%] md:max-w-[44rem]">
-        <ul id="projects-list">
-            <li class="rounded bg-white shadow cursor-pointer hover:shadow-md">
-                <a href="https://ttt-ai-mcts.herokuapp.com" target="_blank" class="flex flex-wrap items-start px-4 py-2 mb-4">
-                    <p class="flex-shrink-0 mr-2 flex items-center text-gray-900">Solving Tic-Tac-Toe with AI</p>
-                    <p class="text-gray-500 font-light">Using Monte Carlo Tree Search to solve Tic-Tac-Toe</p>
-                </a>
-            </li>
-            <li class="rounded bg-white shadow cursor-pointer hover:shadow-md">
-                <a href="#" class="flex flex-wrap items-start px-4 py-2 mb-4">
-                    <p class="flex-shrink-0 mr-2 flex items-center text-gray-900">Digging Grantmaking Data</p>
-                    <p class="text-gray-500 font-light">Understanding grant data with machine learning</p>
-                </a>
-            </li>
-            <li class="rounded bg-white shadow cursor-pointer hover:shadow-md">
-                <a href="https://www.ca-tms.com" target="_blank" class="flex flex-wrap items-start px-4 py-2 mb-4">
-                    <p class="flex-shrink-0 mr-2 flex items-center text-gray-900">Time Management System</p>
-                    <p class="text-gray-500 font-light">Facilitates time record entry and tracking for ongoing projects</p>
-                </a>
-            </li>
-            <li class="rounded bg-white shadow cursor-pointer hover:shadow-md">
-                <a href="#" class="flex flex-wrap items-start px-4 py-2 mb-4">
-                    <p class="flex-shrink-0 mr-2 flex items-center text-gray-900">Portfolio Website</p>
-                    <p class="text-gray-500 font-light">Handcrafted with HTML, CSS, Tailwind and Jekyll</p>
-                </a>
-            </li>
-        </ul>
+        {% include project-list.html %}
     </div>
 </section>
-<section>
-  <h1 class="font-semibold text-3xl mb-12 text-center">Resources 📚</h1>
-  <div class="m-auto max-w-[90%] md:max-w-[44rem]">
-      <ul class="grid grid-cols-1 md:grid-cols-2 gap-2">
-          <li class="rounded shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
-              <a href="#">
-                  <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Machine learning project checklist</p>
-              </a>
-          </li>
-          <li class="rounded shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
-              <a href="#">
-                  <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Tutorial: Introduction to Machine Learning</p>
-              </a>
-          </li>
-          <li class="rounded shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
-              <a href="#">
-                  <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Tutorial: Introduction to Machine Learning</p>
-              </a>
-          </li>
-          <li class="rounded shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
-              <a href="#">
-                  <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Tutorial: Introduction to Machine Learning</p>
-              </a>
-          </li>
-      </ul>
-  </div>
-</section>
-<section class="text-sm bg-gray-50">
+<section class="text-sm">
     <h1 class="font-semibold text-3xl mb-12 text-center">Posts 📝</h1>
     <div class="m-auto max-w-[90%] md:max-w-[44rem]">
-        <ul id="posts-list">
-            <li class="rounded bg-white shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
-                <a href="#">
-                    <p class="text-gray-500 font-light">September 8th, 2019</p>
-                    <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Solving the Monty Hall Problem</p>
-                </a>
-            </li>
-            <li class="rounded bg-white shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
-                <a href="#">
-                    <p class="text-gray-500 font-light">August 24th, 2019</p>
-                    <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Creating Pivot Tables with Python</p>
-                </a>
-            </li>
-            <li class="rounded bg-white shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
-                <a href="#">
-                    <p class="text-gray-500 font-light">August 19, 2019</p>
-                    <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Converting CSV's to SQL statements</p>
-                </a>
-            </li>
-            <li class="rounded bg-white shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
-                <a href="#">
-                    <p class="text-gray-500 font-light">August 13th, 2019</p>
-                    <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">Tutorial: Introduction to Machine Learning</p>
-                </a>
-            </li>
-        </ul>
+        {% include post-list.html %}
     </div>
 </section>

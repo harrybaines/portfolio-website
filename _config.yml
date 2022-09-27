@@ -1,14 +1,3 @@
-exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
-- .jekyll-cache
-- .gitignore
-
-# plugins:
-#   - jekyll-postcss
-#   - jekyll-commonmark
-
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: Harry Baines
@@ -22,21 +11,35 @@ titles_from_headings:
   collections: true
 
 collections:
+  pages:
+    output: true
+    permalink: /:path
   projects:
     output: true
     permalink: /:collection/:title
+    
+permalink: pretty
 
 navigation:
   - title: Projects
     url: /projects.html
-  - title: Resources
-    url: /resources.html
   - title: Posts
     url: /posts.html
   - title: About
     url: /about.html
 
-social_links:
-  Twitter: https://twitter.com/harryb0905
-  LinkedIn: https://www.linkedin.com/in/harrybaines
-  GitHub: https://github.com/harrybaines
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .jekyll-cache
+  - .gitignore
+
+plugins:
+  - jekyll-toc
+
+social:
+  twitter: https://twitter.com/harryb0905
+  github: https://github.com/harrybaines
+  kaggle: https://www.kaggle.com/harrybaines
+  linkedin: https://www.linkedin.com/in/harry-baines-400609137/

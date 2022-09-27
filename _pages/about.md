@@ -13,10 +13,14 @@ Hi! I'm Harry and I'm currently on sabbatical working on projects, online course
 - I like keeping up-to-date with the latest developments in AI research.
 
 --- 
+
 ## Tech 💻
 
-- I've primarily been in the Apple ecosystem circa 2008, however I do occasionally branch out and try other products. My current setup is:
-15-inch MacBook Pro 2017 w/Touch Bar, 2.8 GHz Quad-Core Intel Core i7, 16 GB RAM
+I've primarily been in the Apple ecosystem circa 2008, however I do occasionally branch out and try other products. 
+ 
+My current setup is:
+ 
+- 15-inch MacBook Pro 2017 w/Touch Bar, 2.8 GHz Quad-Core Intel Core i7, 16 GB RAM
 - Logitech MX Mechanical Mini keyboard (first choice)
 - Keychron K2 mechanical keyboard (second choice)
 - Logitech MX Master 3 mouse
@@ -29,9 +33,11 @@ Hi! I'm Harry and I'm currently on sabbatical working on projects, online course
 - Sony WH1000XM3 headphones (for general music)
 
 --- 
+
 ## Productivity ✏️
 
-- I'm obsessed with productivity and being organised. Having tried every productivity app under the sun, I've finally settled on the following setup:
+I'm obsessed with productivity and being organised. Having tried every productivity app under the sun, I've finally settled on the following setup:
+
 - Notion (for my second brain, I follow [Tiago Forte's PARA method](https://fortelabs.com/blog/para/))
 - Todoist (for daily tasks, habits and miscellaneous todos)
 - Fantastical (for planning events and runs)
@@ -53,7 +59,7 @@ My current gear is the following:
 - Hoka Mach 5 (for training runs)
 - Nike ZoomX Vaporfly Next% 2 (for races and parkruns)
 - Hoposo Massage Gun (for recovery and pre-workout)
-- 
+
 I create custom workouts for all my runs on a Sunday for the following week using the calendar in Garmin Connect. The runs can then be synced to the watch to make starting preset workouts much faster. I record treadmill and outdoor runs on the Garmin Forerunner which, once saved, upload activity data to Garmin Connect and Strava automatically.
 
 My fuelling and post-workout nutrition is the following:
@@ -61,7 +67,7 @@ My fuelling and post-workout nutrition is the following:
 - Maurten Gel 100 CAF 100 and Drink Mix 160 (for energy boosts and to keep me hydrated)
 - Veloforte energy chews and recovery shakes (for energy boosts and post-workout recovery)
 - MyProtein pre-workout and energy gels (alternate between these and Maurten gels)
-- MyProtein electrolyte supplements (to replenish lost electrolytes)
+- MyProtein electrolyte supplements (to replace lost electrolytes)
 - MyProtein protein powder (for a post-workout shake)
 
 I do parkrun most weekends depending on my training routine. Follow me on Strava if you're into running!

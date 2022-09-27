@@ -5,7 +5,7 @@ layout: post-page
 
 Recently I took an online course called 'Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning' on Coursera. I found it to be a fantastic learning resource for AI enthusiasts like myself who want to learn more about the subject. In this post I want to summarise the fundamentals of what machine learning actually is, how it works and some applications where this technology can be applied to in the real world.
 
-# What is Machine Learning?
+## What is Machine Learning?
 
 To understand what machine learning is we first need to understand traditional programming. Let's say you want to create a computer program that calculates a person's BMI (Body Mass Index). This can be expressed mathematically as follows:
 

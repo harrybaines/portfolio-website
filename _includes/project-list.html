@@ -1,10 +1,4 @@
----
-title: Projects
-layout: default
----
-
-<h1 class="text-center font-bold">Projects</h1>
-<ul class="m-auto md:max-w-[44rem]">
+<ul>
     {% for project in site.projects %}
         {% include project-card.html title=project.title desc=project.desc url=project.url %}
     {% endfor %}

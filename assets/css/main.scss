@@ -5,6 +5,8 @@
 @tailwind utilities;
 @tailwind components;
 
+$link-color: rgb(37, 99, 235);
+
 body {
     margin: 0 auto;
     font-family: ui-monospace, 'Source Code Pro', monospace;
@@ -19,10 +21,17 @@ section {
     margin: 0 auto;
 }
 .prose {
-    /*font-family: 'font-sans', 'Source Serif Pro', serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
 }
 .prose h1 {
-    margin: 48px 0px 16px 0px;
+    margin: 48px 0px 12px 0px;
+}
+.prose h2 {
+    margin: 32px 0px 18px 0px;
+}
+.reading-time {
+    margin-bottom: 32px;
 }
 #highlight {
     padding: 125px 0px;
@@ -35,6 +44,10 @@ section {
     max-height: 170px;
     border: 1px solid white;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#highlight a {
+    text-decoration: underline;
+    color: $link-color;
 }
 #projects-container {
     min-height: 500px;
@@ -56,11 +69,11 @@ section {
     flex-direction: column;
     flex-basis: 100%;
 }
-.blue-column {
+.left-column {
     height: 100%;
     margin: 0 auto;
 }
-.green-column {
+.right-column {
     height: 100%;
     margin-top: 20px;
     line-height: 30px;
@@ -74,8 +87,8 @@ section {
     .column {
         flex: 1;
     }
-    .green-column {
-        margin: 30px 0px;
+    .right-column {
+        margin: 26px 0px;
     }
     .double-column {
         flex: 2;
@@ -87,7 +100,7 @@ section {
     background-color: #272822;
     border-radius: 5px;
     padding: 10px 14px;
-    font-size: 0.9em;
+    font-size: 0.875rem;
 }
 .highlight .hll { background-color: #272822; }
 .highlight .c { color: #75715e } /* Comment */
