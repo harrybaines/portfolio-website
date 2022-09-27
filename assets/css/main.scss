@@ -34,7 +34,7 @@ section {
 .prose {
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
-    max-width: 100%;
+    max-width: 44rem;
 }
 .prose h1 {
     margin: 48px 0px 12px 0px;
@@ -45,8 +45,11 @@ section {
 .prose li p {
     margin: 12px 0px;
 }
+.page-header {
+    margin-bottom: 48px;
+}
 .reading-time {
-    margin-bottom: 32px;
+    text-align: center;
 }
 #highlight {
     padding: 125px 0px;
