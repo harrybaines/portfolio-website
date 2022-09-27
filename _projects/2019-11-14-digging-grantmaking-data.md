@@ -1,6 +1,8 @@
 ---
 title: Digging Grantmaking Data
 desc: Understanding grant data with machine learning
+date: 2019-11-14
+thumbnail: /assets/images/360-giving.png
 layout: project-page
 ---
 

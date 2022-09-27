@@ -1,6 +1,8 @@
 ---
 title: Squirrel Image Dataset
-desc: High quality image dataset of squirrels for testing computer vision models
+desc: Dataset of high quality squirrel images for testing computer vision models
+date: 2022-08-23
+thumbnail: /assets/images/squirrel-1.png
 layout: project-page
 ---
 
@@ -8,12 +10,12 @@ I recently created a dataset of 93 high quality squirrel images using my phone c
 
 <div class="flex flex-wrap overflow-hidden md:-mx-3 lg:-mx-3 xl:-mx-3">
   <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/3 lg:my-3 lg:px-3 lg:w-1/3 xl:my-3 xl:px-3 xl:w-1/3">
-    <img src="/assets/images/squirrel-1.png" style="width: 200px; height: 200px;" alt="squirrel-1" /> 
+    <img src="/assets/images/squirrel-1.png" style="width: 175px; height: 175px;" alt="squirrel-1" />
   </div>
   <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/3 lg:my-3 lg:px-3 lg:w-1/3 xl:my-3 xl:px-3 xl:w-1/3">
-    <img src="/assets/images/squirrel-2.png" style="width: 200px; height: 200px;" alt="squirrel-2" />
+    <img src="/assets/images/squirrel-2.png" style="width: 175px; height: 175px;" alt="squirrel-2" />
   </div>
   <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/3 lg:my-3 lg:px-3 lg:w-1/3 xl:my-3 xl:px-3 xl:w-1/3">
-    <img src="/assets/images/squirrel-3.png" style="width: 200px; height: 200px;" alt="squirrel-3" />
+    <img src="/assets/images/squirrel-3.png" style="width: 175px; height: 175px;" alt="squirrel-3" />
   </div>
 </div>
