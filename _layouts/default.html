@@ -7,9 +7,7 @@
         <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;700&display=swap" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         {% include navbar.html %}
@@ -21,6 +19,15 @@
             var app = document.getElementById('name');
             var typewriter = new Typewriter(app);
             typewriter.typeString("Hi! ").pauseFor(400).typeString("I'm Harry.").start();
+        </script>
+        <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+        <script>
+          kofiWidgetOverlay.draw('harrybaines', {
+            'type': 'floating-chat',
+            'floating-chat.donateButton.text': 'Support me',
+            'floating-chat.donateButton.background-color': '#00b9fe',
+            'floating-chat.donateButton.text-color': '#fff'
+          });
         </script>
     </body>
 </html>
