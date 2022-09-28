@@ -1,6 +1,6 @@
 ---
 title: Squirrel Image Dataset
-desc: Dataset of high quality squirrel images for testing computer vision models
+desc: Dataset of high quality squirrel images
 date: 2022-08-23
 thumbnail: /assets/images/squirrel-1.png
 layout: project-page
