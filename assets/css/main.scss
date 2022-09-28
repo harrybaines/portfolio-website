@@ -46,6 +46,11 @@ section {
 .prose li p {
     margin: 12px 0px;
 }
+figure {
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
 .page-header {
     margin-bottom: 48px;
 }

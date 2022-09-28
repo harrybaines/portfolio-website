@@ -28,13 +28,13 @@ df = pd.read_csv('timerecords.csv')
 print(df.head(20))
 ```
 
-<div class="custom-image" style="max-width: 550px;">
-  <img src="data.png" alt="First 20 rows of CSV" />
-  <figcaption>First 20 rows of our data</figcaption>
-</div>
+<figure>
+ <img src="/assets/images/posts/2019-08-24-pivot-tables/data.png" alt="First 20 rows of CSV" />
+ <figcaption>First 20 rows of our data</figcaption>
+</figure>
 
 ### 3. Cleaning our data
-I have deliberately constructed a 'clean' dataset, meaning we don't need to spend much time formatting the data. Notice we have a Week Ending column in our dataset. Let's convert it to a pandas datetime format so we can order our dates in the DataFrame:
+I have deliberately constructed a 'clean' dataset, meaning we don't need to spend much time formatting the data. Notice we have a Week Ending column in our dataset. Let's convert it to a pandas DateTime format so we can order our dates in the DataFrame:
 
 ```python
 df['Week Ending'] = pd.to_datetime(df['Week Ending']).dt.strftime('%m/%d/%Y')
@@ -47,7 +47,7 @@ df['Employee'] = df['Firstname'].str.cat(df['Surname'], sep=" ")
 ```
 
 ### 4. Creating the pivot table
-Pandas comes with a handy built in *pivot_table* method we can use:
+Pandas comes with a handy built-in *pivot_table* method we can use:
 
 ```python
 # Create pivot table - total hours per week per employee
@@ -60,12 +60,12 @@ table = df.pivot_table(
 print(table.head(10))
 ```
 
-Which gives us the following:
+This gives us the following:
 
-<div class="custom-image" style="max-width: 550px;">
-  <img src="pivot_table.png" alt="irst 10 rows of pivot table" />
-  <figcaption>First 10 rows of pivot table</figcaption>
-</div>
+<figure>
+ <img src="/assets/images/posts/2019-08-24-pivot-tables/pivot_table.png" alt="first 10 rows of pivot table" />
+ <figcaption>First 10 rows of pivot table</figcaption>
+</figure>
 
 Here we can see each row corresponds to an employee (the index), and all the week endings are taken as column names. The values of each cell in the table contain the total hours spent for that particular employee's week.
 
@@ -83,15 +83,18 @@ plt.ylim(30, 50)
 plt.show()
 ```
 
-![Pivot table visualisation](vis.png)
+<figure>
+ <img src="/assets/images/posts/2019-08-24-pivot-tables/vis.png" alt="pivot table visualisation" />
+ <figcaption>Pivot table visualisation</figcaption>
+</figure>
 
 This helps us to very quickly identify those employees who are working fewer/more hours compared to other employees. Again this is just a synthetic dataset, in reality the totals would be roughly 37.5 hours per employee with some fluctuations here or there so performances for particular weeks would stand out more in reality, but this was just to show pivot tables in action.
 
-And that's it! In this post we covered what pivot tables are, why they're useful and used an example to demonstrate what pivot tables can give us, with a visualisation to top it all off. Despite using a synthetic dataset, I hope this tutorial was interesting and gives insight into how pivot tables can be used in python.
+And that's it! In this post, we covered what pivot tables are, why they're useful and used an example to demonstrate what pivot tables can give us, with a visualisation to top it all off. Despite using a synthetic dataset, I hope this tutorial was interesting and gives insight into how pivot tables can be used in python.
 
 For reference here is the full code:
 
-```python{numberLines: true}
+```python
 # Import dependencies
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -103,7 +106,7 @@ print(df.head(20))
 
 # Data cleaning
 df['Week Ending'] = (
-  pd.to_datetime(df['Week Ending']).dt.strftime('%m/%d/%Y')
+    pd.to_datetime(df['Week Ending']).dt.strftime('%m/%d/%Y')
 )
 df['Employee'] = df['Firstname'].str.cat(df['Surname'], sep=" ")
 
