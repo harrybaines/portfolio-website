@@ -1,9 +1,9 @@
 ---
-title:  Introduction to Machine Learning
+title: Introduction to Machine Learning
 layout: post-page
 ---
 
-Recently I took an online course called 'Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning' on Coursera. I found it to be a fantastic learning resource for AI enthusiasts like myself who want to learn more about the subject. In this post I want to summarise the fundamentals of what machine learning actually is, how it works and some applications where this technology can be applied to in the real world.
+Recently I took an online course called 'Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning' on Coursera. I found it to be a fantastic learning resource for AI enthusiasts like myself who want to learn more about the subject. In this post, I want to summarise the fundamentals of what machine learning actually is, how it works and some applications where this technology can be applied in the real world.
 
 ## What is Machine Learning?
 
@@ -17,7 +17,7 @@ This equation (or rule) takes 2 variables, weight and height, and divides the pe
 
 ```python
 def calc_bmi(weight, height):
-  return weight / (height ** 2)
+	return weight / (height ** 2)
 ```
 
 But let's say we have a more difficult problem, for example face recognition in images. How could we create rules to determine if a face is in an image or not? Everyone's faces are slightly different, so it would become very difficult to define these rules manually in code.
@@ -47,6 +47,6 @@ Doing this manually however is tedious and becomes very difficult to compute man
 
 This is more commonly known as a supervised learning problem, given we have our output labels and the algorithm tries to learn the mapping from the inputs to the labels. Another approach is unsupervised learning, where the algorithm tries to form its own representation of the data without requiring output labels. Other forms of learning exist, such as reinforcement learning, where an 'agent' takes actions in its environment to maximise a utility function, and is commonly seen in robotics and simulated environments.
 
-Going back to the face recognition example if we are given a set of images, we can label each image to say if a face is present in the image or not (e.g. a yes or no label). An ML algorithm can be 'trained' on this labelled dataset and infer the rules for us, so that when presented with a new, unseen image it can tell us with a given level of confidence how likely it is a face is present in the new image!
+Going back to the face recognition example if we are given a set of images, we can label each image to say if a face is present in the image or not (e.g. a yes or no label). An ML algorithm can be 'trained' on this labelled dataset and infer the rules for us so that when presented with a new, unseen image it can tell us with a given level of confidence how likely it is a face is present in the new image!
 
-The rise in the amount of available data present has been one of the main drivers for the success of modern machine learning. Self-driving cars, object detection algorithms and predictive models all use data to make informed decisions; without it, they are nothing.
+The rise in the amount of available data present has been one of the main drivers of the success of modern machine learning. Self-driving cars, object detection algorithms and predictive models all use data to make informed decisions; without it, they are nothing.
