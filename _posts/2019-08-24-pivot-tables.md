@@ -11,7 +11,7 @@ A pivot table is a tool that helps us summarise data, by reorganising and applyi
 
 ## Python Code
 
-For this post I generated a synthetic dataset of employee time records in CSV format and can be downloaded <a href="timerecords.csv" download>here</a>. The aim is to create a pivot table for this data to visualise the total hours spent per week for each employee over a set of 5 weeks. We expect the totals for each employee to be roughly equal to a standard working week of 37.5 hours ± a few hours here or there. If you'd like to download the script that generated this data, you can take a look <a href="https://gist.github.com/harrybaines/1cd443fc596c3e9a833f6522b75e25a0">here</a>.
+For this post I generated a synthetic dataset of employee time records in CSV format and can be downloaded <a href="https://gist.github.com/harrybaines/c231198034ed1cc7879f4a34db417dae" target="_blank">here</a>. The aim is to create a pivot table for this data to visualise the total hours spent per week for each employee over a set of 5 weeks. We expect the totals for each employee to be roughly equal to a standard working week of 37.5 hours ± a few hours here or there. If you'd like to download the script that generated this data, you can take a look <a href="https://gist.github.com/harrybaines/1cd443fc596c3e9a833f6522b75e25a0" target="_blank">here</a>.
 
 ### 1. Import our dependencies
 Let's load the pandas library to store the time records data as a DataFrame:

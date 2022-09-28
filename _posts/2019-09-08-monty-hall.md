@@ -109,10 +109,10 @@ plot_results(wins, losses, games, switching)
 
 This generates the following plot:
 
-<div class="m-auto text-center" style="max-width: 550px;">
+<figure>
  <img src="/assets/images/posts/2019-09-08-monty-hall/switching.png" alt="Results after 100,000 simulations" />
  <figcaption>Results after 100,000 simulations</figcaption>
-</div>
+</figure>
 
 This visualisation helps us confirm our hypothesis that with a large number of games, switching on each game on average results in a higher winning percentage than sticking with your original door!
 
