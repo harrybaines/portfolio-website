@@ -4,6 +4,7 @@ desc: Dataset of high quality squirrel images
 date: 2022-08-23
 thumbnail: /assets/images/squirrel-1.png
 layout: project-page
+view_link: https://www.kaggle.com/datasets/harrybaines/squirrels?select=IMG_4311.png
 ---
 
 I recently created a dataset of 93 high quality squirrel images using my phone camera. This dataset would be particularly useful for computer vision models and as this is a real dataset of actual images, it can be used to assess the predictive performance of a trained squirrel detection model. See the squirrel detector I built using FastAI here. I've put the [full dataset](https://www.kaggle.com/datasets/harrybaines/squirrels?select=IMG_4311.png) on Kaggle.
