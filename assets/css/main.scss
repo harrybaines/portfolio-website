@@ -63,9 +63,14 @@ figure {
     margin-bottom: 48px;
 }
 #highlight {
-    padding: 125px 0px;
+    padding: 40px 0px;
     text-align: left;
     max-width: 900px;
+}
+@media screen and (min-width: 768px) {
+    #highlight {
+        padding: 125px 0px;
+    }
 }
 #highlight img {
     border-radius: 50%;
@@ -112,12 +117,12 @@ figure {
     flex-direction: column;
     flex-basis: 100%;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
     .column {
         flex: 1;
     }
     .right-column {
-        margin: 26px 0px;
+        margin: 20px 0px;
     }
     .double-column {
         flex: 2;
