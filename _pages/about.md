@@ -6,9 +6,9 @@ layout: about-page
 Hi! I'm Harry and I'm currently on sabbatical working on projects, online courses and exploring my hobbies and interests.
 
 - I'm interested in machine learning, artificial intelligence and full-stack software engineering.
-- I have previously worked for 2 years as a Data Scientist at [Yordas Digital](https://www.yordasgroup.com/).
+- I have previously worked for 2 years as a Data Scientist at [Yordas Digital](https://www.yordasgroup.com/){:target="_blank"}.
 - I studied BSc Computer Science (First Class) and MSc Data Science (Distinction) at Lancaster University.
-- During my second year at Lancaster University in 2018 I created and sold a [full-stack time management application](https://www.ca-tms.com/) to a large architecture firm as a side project. It is currently being used by over 60 employees on a daily basis.
+- During my second year at Lancaster University in 2018 I created and sold a [full-stack time management application](https://www.ca-tms.com/){:target="_blank"} to a large architecture firm as a side project. It is currently being used by over 60 employees on a daily basis.
 - I'm obsessed with productivity.
 - I like keeping up-to-date with the latest developments in AI research.
 
@@ -38,7 +38,7 @@ My current setup is:
 
 I'm obsessed with productivity and being organised. Having tried every productivity app under the sun, I've finally settled on the following setup:
 
-- Notion (for my second brain, I follow [Tiago Forte's PARA method](https://fortelabs.com/blog/para/))
+- Notion (for my second brain, I follow [Tiago Forte's PARA method](https://fortelabs.com/blog/para/){:target="_blank"})
 - Todoist (for daily tasks, habits and miscellaneous todos)
 - Fantastical (for planning events and runs)
 - Readwise (for automatically syncing tweets and highlights to Notion)
@@ -85,7 +85,7 @@ I do parkrun most weekends depending on my training routine. Follow me on Strava
 
 ## Others 👨🏻‍💼
 
-- I believe in simplicity and elegance. Websites, applications and AI algorithms can be over-engineered sometimes (inspiration taken from [here](https://motherfuckingwebsite.com/)).
+- I believe in simplicity and elegance. Websites, applications and AI algorithms can be over-engineered sometimes (inspiration taken from [here](https://motherfuckingwebsite.com/){:target="_blank"}).
 - I like building things from scratch so I understand the tools I use.
 - I like to spend time mastering the fundamentals to make life easier further down the line with the more advanced material.
 - Work hard, play hard!
