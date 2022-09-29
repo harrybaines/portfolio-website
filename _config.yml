@@ -1,15 +1,14 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+# Site settings
 title: Harry Baines
+description: Portfolio website
+url: ""
+baseurl: ""
+repo: ""
+email: "harryb0905@googlemail.com"
+encoding: utf-8
+lang: en-GB
 
-postcss:
-  cache: false
-
-titles_from_headings:
-  enabled:     true
-  strip_title: true
-  collections: true
-
+# Collections
 collections:
   pages:
     output: true
@@ -18,8 +17,10 @@ collections:
     output: true
     permalink: /:path
 
+# Permalink style
 permalink: pretty
 
+# Site navigation
 navigation:
   - title: Projects
     url: /projects.html
@@ -28,6 +29,7 @@ navigation:
   - title: About
     url: /about.html
 
+# Files to exclude from Jekyll builds
 exclude:
   - README.md
   - Gemfile
@@ -35,11 +37,16 @@ exclude:
   - .jekyll-cache
   - .gitignore
 
+# Installed Gems
 plugins:
   - jekyll-toc
 
+# Social links
 social:
   twitter: https://twitter.com/harryb0905
   github: https://github.com/harrybaines
   kaggle: https://www.kaggle.com/harrybaines
   linkedin: https://www.linkedin.com/in/harry-baines-400609137/
+
+postcss:
+  cache: false
