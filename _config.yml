@@ -8,6 +8,9 @@ email: "harryb0905@googlemail.com"
 encoding: utf-8
 lang: en-GB
 
+# Google Analytics
+google_analytics: UA-128207358-1
+
 # Collections
 collections:
   pages:
