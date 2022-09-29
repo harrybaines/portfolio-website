@@ -4,6 +4,7 @@ desc: Understanding grant data with machine learning
 date: 2019-11-14
 emoji: 📊
 layout: project-page
+toc: true
 ---
 
 As part of my Data Science degree, I took a module named Data Science Fundamentals in which I partook in a group project. The group was composed of 6 members in total; we were allocated a project with 360Giving which involved the analysis of grant data published by funders in the UK. This turned out to be a complex project, which not only allowed us to exercise our skills in mining large datasets but also provided an opportunity to explore new technologies whilst being able to tackle a real-world problem. In this post, I will give a general overview of the work that was undertaken by our group, with an emphasis on the machine learning aspects I worked on to answer our first research question.
