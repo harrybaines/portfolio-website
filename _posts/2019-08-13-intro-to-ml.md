@@ -1,6 +1,7 @@
 ---
 title: Introduction to Machine Learning
 layout: post-page
+toc: true
 ---
 
 Recently I took an online course called 'Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning' on Coursera. I found it to be a fantastic learning resource for AI enthusiasts like myself who want to learn more about the subject. In this post, I want to summarise the fundamentals of what machine learning actually is, how it works and some applications where this technology can be applied in the real world.

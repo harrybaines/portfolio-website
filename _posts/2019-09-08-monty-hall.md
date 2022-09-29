@@ -1,6 +1,7 @@
 ---
 title: Solving the Monty Hall Problem
 layout: post-page
+toc: true
 ---
 
 Imagine you're on a game show. There are 3 doors, behind which are 2 goats and 1 car. To win, you must choose the door behind which the car can be found. 

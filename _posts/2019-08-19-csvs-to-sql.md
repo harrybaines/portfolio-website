@@ -1,6 +1,7 @@
 ---
 title: "Converting CSV's to SQL statements"
 layout: post-page
+toc: true
 ---
 
 We commonly encounter situations where we require data in one format to be converted into another. In Data Science, this conversion process is known as Data Wrangling or Data Munging, where we transform data into a more appropriate format for processing. This post describes an application I developed to automatically process CSV files into SQL insert statements using a Flask server. If you want to follow along, you can download the job extracts file [here](https://gist.github.com/harrybaines/f41b4f54b4acb65bfe48c476ce266006){:target="_blank"}.

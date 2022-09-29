@@ -1,6 +1,7 @@
 ---
 title: "Creating Pivot Tables with Python"
 layout: post-page
+toc: true
 ---
 
 Pivot tables are a great and powerful way to summarize large datasets. In this post, we will use Python and the Pandas library to construct a pivot table from a list of employee time records in CSV format. If you want to follow along with this tutorial I highly recommend using Jupyter notebooks. Alternatively, you can read the post and download the code available in full at the end.
