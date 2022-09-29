@@ -3,10 +3,9 @@ title: "Converting CSV's to SQL statements"
 layout: post-page
 ---
 
-We commonly encounter situations where we require data in one format to be converted into another. In Data Science, this conversion process is known as Data Wrangling or Data Munging, where we transform data into a more appropriate format for processing. This post describes an application I developed to automatically process CSV files into SQL insert statements using a Flask server. If you want to follow along, you can download the job extracts file <a href="https://gist.github.com/harrybaines/f41b4f54b4acb65bfe48c476ce266006" target="_blank">here</a>.
+We commonly encounter situations where we require data in one format to be converted into another. In Data Science, this conversion process is known as Data Wrangling or Data Munging, where we transform data into a more appropriate format for processing. This post describes an application I developed to automatically process CSV files into SQL insert statements using a Flask server. If you want to follow along, you can download the job extracts file [here](https://gist.github.com/harrybaines/f41b4f54b4acb65bfe48c476ce266006){:target="_blank"}.
 
-Since the summer of 2018 I've been developing a full-stack time management system for an architecture firm <a href="/2018-05-01-tms" target="_blank">(read more)</a>. 
-During the migration from the old system (involving several Excel files) to my new system (a React front-end with a PostgreSQL database hosted on Heroku) I was frequently presented with data files, in CSV format, to be inserted into the new database. 
+Since the summer of 2018 I've been developing a full-stack time management system for an architecture firm ([read more](/2018-05-01-tms){:target="_blank"}). During the migration from the old system (involving several Excel files) to my new system (a React front-end with a PostgreSQL database hosted on Heroku) I was frequently presented with data files, in CSV format, to be inserted into the new database.
 
 ## What is a CSV?
 

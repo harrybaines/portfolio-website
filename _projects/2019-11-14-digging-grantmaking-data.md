@@ -53,10 +53,10 @@ Each blue point on the map indicates a grant. A darker point denotes a higher am
 
 The following chart shows the top 3 themes in each country and their proportions: 
 
-<div class="custom-image" style="max-width: 750px;">
- <img src="vis-bar.png" alt="Themes Bar Chart" />
+<figure style="max-width: 750px;">
+ <img src="/assets/images/projects/2019-11-14-digging-grantmaking-data/vis-bar.png" alt="Themes Bar Chart" />
  <figcaption>Top 3 themes in each country</figcaption>
-</div>
+</figure>
 
 From the chart we see that grants in Northern Ireland are mostly categorized as Community (38.09% of all grants). Wales has the most grants relating to Hobbies and Leisure (45.26%). Health-related grants dominate in the Isle of Man with 48.35% of grants labelled as Heath. Grants categorized as both Community and Hobbies and Leisure in Scotland have 36.95% and 34.5% of total grants respectively. England has a more balanced category of grants with 36.62% of Jobs, 34.35% of Hobbies and Leisure and 29.03% of Community.
 

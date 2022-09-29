@@ -118,9 +118,10 @@ This visualisation helps us confirm our hypothesis that with a large number of g
 
 Quite interesting don't you think? If you want to see more, check out Giles McMullen's YouTube video in the references below as it was the original inspiration for this post.
 
-All code for this post is available on a GitHub repository [here](https://github.com/harryb0905/monty-hall-problem).
+All code for this post is available on a GitHub repository [here](https://github.com/harryb0905/monty-hall-problem){:target="_blank"}.
+
 ## References
 
-1. <a href="https://en.wikipedia.org/wiki/Monty_Hall_problem" target="_blank">Monty Hall Wikipedia page</a>
-2. <a href="https://betterexplained.com/articles/understanding-the-monty-hall-problem/" target="_blank">Monty Hall problem post</a>
-3. <a href="https://www.youtube.com/watch?v=OKp3bYiKGrc&ab_channel=PythonProgrammer" target="_blank">Giles McMullen's YouTube video</a>
+1. [Monty Hall Wikipedia page](https://en.wikipedia.org/wiki/Monty_Hall_problem){:target="_blank"}
+2. [Monty Hall problem post](https://betterexplained.com/articles/understanding-the-monty-hall-problem/){:target="_blank"}
+3. [Giles McMullen's YouTube video](https://www.youtube.com/watch?v=OKp3bYiKGrc&ab_channel=PythonProgrammer){:target="_blank"}
