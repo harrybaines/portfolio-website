@@ -2,7 +2,7 @@
 title: Squirrel Image Dataset
 desc: Dataset of high quality squirrel images
 date: 2022-08-23
-thumbnail: /assets/images/projects/2022-08-23-squirrel-dataset/squirrel-1.png
+emoji: 🐿
 layout: project-page
 view_link: https://www.kaggle.com/datasets/harrybaines/squirrels?select=IMG_4311.png
 ---
