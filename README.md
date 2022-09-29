@@ -2,6 +2,8 @@
 
 Handcrafted portfolio website design built with Jekyll, Tailwind CSS and Flowbite.
 
+Visit the live site [here](https://www.harrybaines.net).
+
 Install gems from `Gemfile`:
 
 ```bash
