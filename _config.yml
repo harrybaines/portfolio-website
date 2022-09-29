@@ -1,9 +1,9 @@
 # Site settings
 title: Harry Baines
 description: Portfolio website
-url: ""
-baseurl: ""
-repo: ""
+url: "harrybaines.github.io"
+baseurl: "https://harrybaines.github.io"
+repo: "https://github.com/harrybaines/harrybaines.github.io"
 email: "harryb0905@googlemail.com"
 encoding: utf-8
 lang: en-GB
