@@ -43,6 +43,7 @@ exclude:
 # Installed Gems
 plugins:
   - jekyll-toc
+  - jekyll-seo-tag
 
 # Social links
 social:
