@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Handcrafted portfolio website design built with Jekyll, Tailwind CSS and Flowbite. THe 
+Handcrafted portfolio website design built with Jekyll, Tailwind CSS and Flowbite. 
 
 The site is deployed on Netlify, and can be viewed [here](https://www.harrybaines.net).
 
