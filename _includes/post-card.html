@@ -1,6 +1,6 @@
-<li class="rounded bg-white shadow cursor-pointer px-4 py-2 mb-4 hover:shadow-md">
+<li class="rounded bg-white shadow cursor-pointer px-6 py-6 mb-4 border-l-4 border-blue-700 hover:shadow-md">
     <a href="{{ include.url }}">
         <p class="text-gray-500">{{ include.date | date_to_long_string: "ordinal", "US" }}</p>
-        <p class="flex-shrink-0 mr-2 flex items-center text-base text-gray-900">{{ include.title }}</p>
+        <p class="flex-shrink-0 mr-2 flex items-center font-semibold text-base">{{ include.title }}</p>
     </a>
 </li>
