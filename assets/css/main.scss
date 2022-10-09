@@ -18,6 +18,10 @@ body {
 section {
   padding: 100px 0px;
 }
+blockquote p {
+    font-style: normal;
+    quotes: none;
+}
 footer {
     display: table;
     text-align: center;
