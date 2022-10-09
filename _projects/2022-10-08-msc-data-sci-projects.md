@@ -1,6 +1,6 @@
 ---
 title: MSc Data Science Projects
-desc: A collection of some of my work from the Data Science masters at Lancaster
+desc: A collection of some of my work from the Data Science Masters course at Lancaster
 date: 2022-10-08
 emoji: 👨🏻‍🎓
 layout: project-page
@@ -8,7 +8,7 @@ layout: project-page
 
 > Note: this page is constantly being updated. Bear with me as I complete this page!
 
-Here I will share some interesting projects I did during my time at Lancaster studying for my masters in Data Science (distinction):
+Here I will share some interesting projects I did during my time at Lancaster studying for my Masters in Data Science (distinction):
 
 - [Enhancing Phrase Retrieval for Safety Data Sheet Authoring 📃](#yordas)
 - [Implementing and Evaluating Neural Networks 🧠](#nn-from-scratch)
