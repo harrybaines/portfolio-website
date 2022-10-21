@@ -3,7 +3,7 @@ title: Digging Grantmaking Data
 desc: Understanding grant data with machine learning
 date: 2019-11-14
 emoji: 📊
-layout: project-page
+layout: post-page
 toc: true
 ---
 
@@ -46,7 +46,7 @@ Following grant classification, other group members were able to proceed with th
 We created a heat map to show the frequency and the total amount of grants awarded by The Co-operative Group over the past 2 years in different places across the UK:
 
 <figure style="max-width: 300px;">
- <img src="/assets/images/projects/2019-11-14-digging-grantmaking-data/uk-vis.png" alt="UK heat map visualisation of the total amount of grants awarded by the Co-operative Group" />
+ <img src="/assets/images/posts/2019-11-14-digging-grantmaking-data/uk-vis.png" alt="UK heat map visualisation of the total amount of grants awarded by the Co-operative Group" />
  <figcaption>UK heatmap visualisation</figcaption>
 </figure>
 
@@ -55,7 +55,7 @@ Each blue point on the map indicates a grant. A darker point denotes a higher am
 The following chart shows the top 3 themes in each country and their proportions: 
 
 <figure style="max-width: 750px;">
- <img src="/assets/images/projects/2019-11-14-digging-grantmaking-data/vis-bar.png" alt="Themes Bar Chart" />
+ <img src="/assets/images/posts/2019-11-14-digging-grantmaking-data/vis-bar.png" alt="Themes Bar Chart" />
  <figcaption>Top 3 themes in each country</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ These 5 countries can be classified into 2 categories: one category containing S
 In the following plot we show the geographical variation of themes for the largest recipients of grants by the Co-operative Group:
 
 <figure style="max-width: 750px;">
- <img src="/assets/images/projects/2019-11-14-digging-grantmaking-data/map-vis.png" alt="Geographical variation chart" />
+ <img src="/assets/images/posts/2019-11-14-digging-grantmaking-data/map-vis.png" alt="Geographical variation chart" />
  <figcaption>Major recipients geographically plotted based on theme and amount awarded</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ It can be seen that Scotland has 2 major recipient organizations: Alzheimer Scot
 The final visualisation we produce shows the total amount awarded in the top three themes for countries in the UK:
 
 <figure style="max-width: 750px;">
- <img src="/assets/images/projects/2019-11-14-digging-grantmaking-data/country-theme-bar.png" alt="Amount awarded in the top three themes of each country" />
+ <img src="/assets/images/posts/2019-11-14-digging-grantmaking-data/country-theme-bar.png" alt="Amount awarded in the top three themes of each country" />
  <figcaption>Amount awarded in the top three themes of each country</figcaption>
 </figure>
 

@@ -76,13 +76,6 @@ I do parkrun most weekends depending on my training routine. Follow me on Strava
 
 --- 
 
-## Hobbies and Interests ⚽️
-
-- In addition to running I enjoy cycling and swimming. Maybe one day I'll do an Ironman triathlon...
-- I enjoy playing Dead by Daylight. My survivor build is Dead Hard, Resilience, Windows of Opportunity and Off the Record with Feng Min.
-
---- 
-
 ## Others 👨🏻‍💼
 
 - I believe in simplicity and elegance. Websites, applications and AI algorithms can be over-engineered sometimes (inspiration taken from [here](https://motherfuckingwebsite.com/){:target="_blank"}).

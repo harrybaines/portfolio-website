@@ -3,28 +3,17 @@ layout: default
 title: Home
 ---
 
-<section id="highlight" class="my-40 m-auto">
-    <div class='row px-8 xs:px-0'>           
-        <div class='column'>
-            <div class='left-column'>
-                <img src="/assets/images/profile.png" />
-            </div>
-        </div>
-        <div class='double-column py-8 md:py-0'>
-            <div class='right-column'>
-                <h1 id='name' class="font-extrabold mb-4 text-3xl"></h1>
-                <p class="text-base">
-                    I'm the AI guy.
-                    I like training machine learning models and engineering software.
-                    You can read more about me <a href="/about">here</a>.
-                    You can find me on 
-                    <a href="{{ site.social.twitter }}" target="_blank">Twitter</a>,
-                    <a href="{{ site.social.github }}" target="_blank">GitHub</a>,
-                    <a href="{{ site.social.kaggle }}" target="_blank">Kaggle</a> and
-                    <a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a>.
-                </p>
-            </div>
-        </div>
+<section id="highlight" class="my-40 m-auto max-w-[90%] md:max-w-[42rem]">
+    <div class='m-auto'>
+        <h1 id='name' class="font-extrabold mb-5 text-4xl"></h1>
+        <p class="text-lg font-normal">
+            Machine learning engineer. Read more about me <a href="/about">here</a>. <br />
+            You can find me on 
+            <a href="{{ site.social.twitter }}" target="_blank">Twitter</a>,
+            <a href="{{ site.social.github }}" target="_blank">GitHub</a>,
+            <a href="{{ site.social.kaggle }}" target="_blank">Kaggle</a> and
+            <a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a>.
+        </p>
     </div>
 </section>
 <section class="bg-gray-50">
@@ -33,7 +22,7 @@ title: Home
         {% include project-list.html %}
     </div>
 </section>
-<section class="text-sm">
+<section>
     <h1 class="font-semibold text-3xl mb-12 text-center">Posts 📝</h1>
     <div class="m-auto max-w-[90%] md:max-w-[44rem]">
         {% include post-list.html %}

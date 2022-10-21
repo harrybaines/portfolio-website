@@ -6,7 +6,7 @@
 @tailwind components;
 
 $link-color: rgb(37, 99, 235);
-$base-font: 'Mulish', 'Source Code Pro', monospace;
+$base-font: 'Open Sans', 'Source Code Pro', monospace;
 
 body {
     margin: 0 auto;
@@ -79,7 +79,6 @@ figure img {
 #highlight {
     padding: 40px 0px;
     text-align: left;
-    max-width: 900px;
 }
 @media screen and (min-width: 768px) {
     #highlight {
@@ -92,7 +91,7 @@ figure img {
     max-height: 170px;
     border: 1px solid white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    filter: brightness(99%);
+    filter: brightness(98%);
 }
 #highlight a {
     text-decoration: underline;
