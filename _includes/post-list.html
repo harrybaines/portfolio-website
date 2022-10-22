@@ -1,6 +1,6 @@
 <ul>
     {% assign posts = site.posts | sort: 'date' | reverse %}
     {% for post in posts %}
-        {% include post-card.html title=post.title date=post.date url=post.url  %}
+        {% include post-card.html title=post.title excerpt=post.excerpt date=post.date url=post.url  %}
     {% endfor %}
 </ul>
