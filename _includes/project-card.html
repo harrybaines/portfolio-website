@@ -1,18 +1,14 @@
 <li class="rounded bg-white shadow cursor-pointer border-l-4 border-sky-700 hover:shadow-md">
     <a href="{{ include.url }}" class="flex flex-wrap items-start mb-4">
-        <div class="flex flex-row flex-1 pt-3 pb-3">
-            <div class="basis-14 inset-0 flex items-center justify-center">
-                <span class="text-xl h-4 w-4">
-                    <svg class="stroke-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
-                    </svg>                      
-                </span>
+        <div class="flex flex-row flex-1 py-5 px-7">
+            <div class="flex-auto w-64">
+                <p class="mb-0.5 font-semibold">{{ include.title }}</p>
+                <p class="text-sm font-normal text-gray-500">
+                    <p class="text-gray-500 text-sm">{{ include.desc }}</p>
+                </p>
             </div>
-            <div class="flex-auto">
-                <p class="font-medium">{{ include.title }}</p>
-            </div>
-            <div class="flex-auto w-32 pr-5 text-right">
-                <p class="text-gray-400 text-sm">{{ include.date | date_to_long_string: "ordinal", "US" }}</p>
+            <div class="flex-auto w-8 text-right">
+                <p class="text-gray-400 text-sm">{{ include.date | date: "%b %d, %Y" }}</p>
             </div>
         </div>
     </a>
