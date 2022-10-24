@@ -1,6 +1,6 @@
 <ul>
     {% assign projects = site.projects | sort: 'date' | reverse %}
     {% for project in projects %}
-        {% include project-card.html title=project.title desc=project.desc date=project.date emoji=project.emoji url=project.url %}
+        {% include project-card.html title=project.title desc=project.desc date=project.date thumbnail=project.thumbnail url=project.url %}
     {% endfor %}
 </ul>

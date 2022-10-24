@@ -2,7 +2,7 @@
 title: MSc Data Science Projects
 desc: A collection of some of my work from the Data Science Masters course at Lancaster
 date: 2020-09-01
-emoji: 👨🏻‍🎓
+thumbnail: /assets/images/projects/2020-09-01-msc-data-sci-projects/lancaster.png
 layout: project-page
 ---
 
