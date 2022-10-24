@@ -21,8 +21,8 @@ I've primarily been in the Apple ecosystem circa 2008, however I do occasionally
 My current setup is:
  
 - 15-inch MacBook Pro 2017 w/Touch Bar, 2.8 GHz Quad-Core Intel Core i7, 16 GB RAM
-- Logitech MX Mechanical Mini keyboard (first choice)
-- Keychron K2 mechanical keyboard (second choice)
+- IQUNIX L80 mechanical keyboard (first choice)
+- Logitech MX Mechanical Mini keyboard (second choice)
 - Logitech MX Master 3 mouse
 - iPhone 12 Pro
 - Apple Watch Series 6 (for general smartwatch use)
@@ -60,11 +60,12 @@ My current gear is the following:
 - Nike ZoomX Vaporfly Next% 2 (for races and parkruns)
 - Hoposo Massage Gun (for recovery and pre-workout)
 
-I create custom workouts for all my runs on a Sunday for the following week using the calendar in Garmin Connect. The runs can then be synced to the watch to make starting preset workouts much faster. I record treadmill and outdoor runs on the Garmin Forerunner which, once saved, upload activity data to Garmin Connect and Strava automatically.
+I create custom workouts for all my runs on a Sunday for the following week using the calendar in Garmin Connect. The runs can then be synced to the Garmin Forerunner to make starting preset workouts much faster. I record treadmill and outdoor runs on the Garmin which, once saved, upload activity data to Garmin Connect and Strava automatically.
 
 My fuelling and post-workout nutrition is the following:
 
 - Maurten Gel 100 CAF 100 and Drink Mix 160 (for energy boosts and to keep me hydrated)
+- SIS Go Hydro Electrolyte Tablets (for hydration and recovery)
 - Veloforte energy chews and recovery shakes (for energy boosts and post-workout recovery)
 - MyProtein pre-workout and energy gels (alternate between these and Maurten gels)
 - MyProtein electrolyte supplements (to replace lost electrolytes)
