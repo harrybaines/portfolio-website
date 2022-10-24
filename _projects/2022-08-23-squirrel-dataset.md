@@ -1,6 +1,6 @@
 ---
-title: Squirrel Image Dataset
-desc: A hand made dataset of high quality squirrel images
+title: Squirrel Images
+desc: A dataset of high quality squirrel images
 date: 2022-08-23
 thumbnail: assets/images/projects/2022-08-23-squirrel-dataset/squirrel-1.png
 layout: project-page
