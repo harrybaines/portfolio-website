@@ -3,26 +3,49 @@ layout: default
 title: Home
 ---
 
-<section id="highlight" class="my-24 sm:my-40 m-auto max-w-[90%] md:max-w-[42rem]">
-    <div class='m-auto'>
-        <h1 id='name' class="font-extrabold mb-5 text-3xl sm:text-4xl"></h1>
-        <p class="font-normal text-base sm:text-lg">
-            Machine learning engineer. Read more about me <a href="/about">here</a>. <br />
-            You can find me on 
-            <a href="{{ site.social.twitter }}" target="_blank">Twitter</a>,
-            <a href="{{ site.social.github }}" target="_blank">GitHub</a>,
-            <a href="{{ site.social.kaggle }}" target="_blank">Kaggle</a> and
-            <a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a>.
-        </p>
+<section id="highlight" class="my-24 sm:my-28 m-auto max-w-[90%] md:max-w-[46rem]">
+    <div class='row px-2 xs:px-0'>
+        <div class='column'>
+            <div class='left-column'>
+                <img src="/assets/images/nst.png" />
+            </div>
+        </div>
+        <div class='double-column py-8 sm:py-4 px-8'>
+            <div class='right-column'>
+                <h1 id='name' class="font-extrabold mb-3 text-3xl"></h1>
+                <p class="font-normal text-base">
+                    Data Scientist. Read more about me <a href="/about">here</a>. <br />
+                    You can find me on 
+                    <a href="{{ site.social.twitter }}" target="_blank">Twitter</a>,
+                    <a href="{{ site.social.github }}" target="_blank">GitHub</a>,
+                    <a href="{{ site.social.kaggle }}" target="_blank">Kaggle</a> and
+                    <a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a>.
+                </p>
+            </div>
+        </div>
     </div>
 </section>
-<section class="bg-gray-50">
+<section class="bg-zinc-50 text-center">
+    <p class="font-normal text-lg mb-2">
+        I'm a <span class="font-bold">data scientist</span> in the UK with 2 years experience.
+    </p>
+    <p class="text-lg mb-2">
+        I build stuff with <span class="font-bold">AI</span> and <span class="font-bold">machine learning</span>.
+    </p>
+    <p class="text-lg mb-2">
+        I enjoy extracting insights from <span class="font-bold">data</span>.
+    </p>
+    <p class="text-lg mb-2">
+        I am also a highly proficient <span class="font-bold">Python</span> programmer.
+    </p>
+</section>
+<section>
     <h1 class="font-semibold text-3xl mb-12 text-center">Projects 👨‍💻</h1>
     <div class="m-auto max-w-[90%] md:max-w-[44rem]">
         {% include project-list.html %}
     </div>
 </section>
-<section>
+<section class="bg-zinc-50">
     <h1 class="font-semibold text-3xl mb-12 text-center">Posts 📝</h1>
     <div class="m-auto max-w-[90%] md:max-w-[44rem]">
         {% include post-list.html %}
