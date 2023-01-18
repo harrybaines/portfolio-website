@@ -12,8 +12,6 @@ Hi! I'm Harry and I'm currently on sabbatical working on projects, online course
 - I'm obsessed with productivity.
 - I like keeping up-to-date with the latest developments in AI research.
 
---- 
-
 ## Tech 💻
 
 I've primarily been in the Apple ecosystem circa 2008, however I do occasionally branch out and try other products. 
@@ -22,17 +20,15 @@ My current setup is:
  
 - 15-inch MacBook Pro 2017 w/Touch Bar, 2.8 GHz Quad-Core Intel Core i7, 16 GB RAM
 - IQUNIX L80 mechanical keyboard (first choice)
-- Logitech MX Mechanical Mini keyboard (second choice)
+- Nuphy Halo 65 (second choice)
 - Logitech MX Master 3 mouse
-- iPhone 12 Pro
-- Apple Watch Series 6 (for general smartwatch use)
+- iPhone 14 Pro Max
+- Apple Watch Series 8 (for general smartwatch use)
 - iPad Pro 11-inch 2nd gen (for taking handwritten notes and an extension of my MacBook screen)
 - Apple Magic Keyboard for iPad Pro 11-inch
 - Apple Pencil (for taking handwritten notes on iPad Pro)
 - AirPods Pro 1st Gen (for podcasts, audiobooks and study music)
 - Sony WH1000XM3 headphones (for general music)
-
---- 
 
 ## Productivity ✏️
 
@@ -46,17 +42,15 @@ I'm obsessed with productivity and being organised. Having tried every productiv
 - GoodNotes (for taking hand-written notes on iPad)
 - Grammarly (for spell-checking and general language checks for blog posts)
 
---- 
-
 ## Running 🏃🏻‍♂️
 
 My current gear is the following:
 
 - Garmin Forerunner 255 (for recording runs)
 - Garmin Running Dynamics Pod (for advanced data tracking during runs)
-- Apple Watch Series 6 (yes, I do wear 2 watches!)
+- Apple Watch Series 8 (yes, I do wear 2 watches!)
 - AirPods Pro 1st Gen (for music)
-- Hoka Mach 5 (for training runs)
+- Asics Novablast 3 (for training runs)
 - Nike ZoomX Vaporfly Next% 2 (for races and parkruns)
 - Hoposo Massage Gun (for recovery and pre-workout)
 
@@ -74,8 +68,6 @@ My fuelling and post-workout nutrition is the following:
 I do parkrun most weekends depending on my training routine. Follow me on Strava if you're into running!
 
 <iframe height='454' width='100%' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/7314947/latest-rides/010cd5a00e54ce6c316288eec91a6803b602ccfc'></iframe>
-
---- 
 
 ## Others 👨🏻‍💼
 

@@ -6,7 +6,7 @@
 @tailwind components;
 
 $link-color: rgb(37, 99, 235);
-$base-font: 'Open Sans', 'Source Code Pro', monospace;
+$base-font: 'Proxima Nova', 'Source Code Pro', monospace;
 
 body {
     margin: 0 auto;
@@ -43,20 +43,21 @@ footer {
     font-weight: bold;
     font-family: $base-font;
     text-align: center;
-    margin-top: 75px;
+    margin-top: 100px;
 }
 .prose {
-    font-size: 17px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    // font-family: 'Inter', sans-serif;
     max-width: 44rem;
     margin-bottom: 40px;
-    margin-top: 75px;
+    margin-top: 50px;
+    line-height: 30px;
 }
 .prose h1 {
-    margin: 60px 0px 12px 0px;
+    margin: 70px 0px 12px 0px;
 }
 .prose h2 {
-    margin: 48px 0px 18px 0px;
+    margin: 70px 0px 30px 0px;
 }
 .prose li p {
     margin: 12px 0px;
@@ -79,19 +80,19 @@ figure img {
     margin-bottom: 48px;
 }
 #highlight {
-    padding: 40px 0px;
+    // padding: 40px 0px;
     text-align: left;
 }
 @media screen and (min-width: 768px) {
     #highlight {
-        padding: 125px 0px;
+        padding: 250px 0px;
     }
 }
 #highlight img {
     border-radius: 50%;
-    max-width: 170px;
-    max-height: 170px;
-    border: 1px solid white;
+    max-width: 180px;
+    max-height: 180px;
+    border: 2px solid white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     filter: brightness(98%);
 }

@@ -3,51 +3,57 @@ layout: default
 title: Home
 ---
 
-<section id="highlight" class="my-24 sm:my-28 m-auto max-w-[90%] md:max-w-[46rem]">
-    <div class='row px-2 xs:px-0'>
-        <div class='column'>
-            <div class='left-column'>
-                <img src="/assets/images/me.JPG" />
+<section id="highlight" class="py-24">
+    <div class="m-auto max-w-[90%] md:max-w-[46rem]">
+        <div class='row px-2 xs:px-0'>
+            <div class='column'>
+                <div class='left-column'>
+                    <img src="/assets/images/me.JPG" />
+                </div>
             </div>
-        </div>
-        <div class='double-column py-8 sm:py-4 px-8'>
-            <div class='right-column'>
-                <h1 id='name' class="font-extrabold mb-3 text-3xl"></h1>
-                <p class="font-normal text-base">
-                    Data Scientist. Read more about me <a href="/about">here</a>. <br />
-                    You can find me on
-                    <a href="{{ site.social.twitter }}" target="_blank">Twitter</a>,
-                    <a href="{{ site.social.github }}" target="_blank">GitHub</a>,
-                    <a href="{{ site.social.kaggle }}" target="_blank">Kaggle</a> and
-                    <a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a>.
-                </p>
+            <div class='double-column py-10 sm:py-0.5 px-8'>
+                <div class='right-column'>
+                    <h1 id='name' class="font-extrabold mb-4 text-4xl"></h1>
+                    <p class="font-normal text-lg">
+                        Data Scientist and Python programmer. <br />
+                        Read more about me <a href="/about">here</a>. <br />
+                        Find me on
+                        <a href="{{ site.social.github }}" target="_blank">GitHub</a>,
+                        <a href="{{ site.social.twitter }}" target="_blank">Twitter</a>,
+                        <a href="{{ site.social.kaggle }}" target="_blank">Kaggle</a> and
+                        <a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a>.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 </section>
-<section class="bg-zinc-50 text-center">
-    <p class="font-normal text-lg mb-2">
-        I'm a <span class="font-bold">data scientist</span> in the UK with 2 years experience.
-    </p>
-    <p class="text-lg mb-2">
-        I build stuff with <span class="font-bold">AI</span> and <span class="font-bold">machine learning</span>.
-    </p>
-    <p class="text-lg mb-2">
-        I enjoy extracting insights from <span class="font-bold">data</span>.
-    </p>
-    <p class="text-lg mb-2">
-        I am also a highly proficient <span class="font-bold">Python</span> programmer.
-    </p>
+<section class="bg-zinc-50">
+    <div class="m-auto max-w-[90%] md:max-w-[44rem]">
+        <h1 class="font-bold text-4xl mb-10">About Me</h1>
+        <p class="text-xl mb-2">
+            I'm a Data Scientist in the UK with 2 years of experience.
+        </p>
+        <p class="text-xl mb-2">
+            I build AI and machine learning systems.
+        </p>
+        <p class="text-xl mb-2">
+            I enjoy extracting insights from data.
+        </p>
+        <p class="text-xl">
+            I am also a highly proficient Python programmer.
+        </p>
+    </div>
 </section>
 <section>
-    <h1 class="font-semibold text-3xl mb-12 text-center">Projects 👨‍💻</h1>
     <div class="m-auto max-w-[90%] md:max-w-[44rem]">
+        <h1 class="font-bold text-4xl mb-10">Projects</h1>
         {% include project-list.html %}
     </div>
 </section>
 <section class="bg-zinc-50">
-    <h1 class="font-semibold text-3xl mb-12 text-center">Posts 📝</h1>
     <div class="m-auto max-w-[90%] md:max-w-[44rem]">
+        <h1 class="font-bold text-4xl mb-10">Posts</h1>
         {% include post-list.html %}
     </div>
 </section>
