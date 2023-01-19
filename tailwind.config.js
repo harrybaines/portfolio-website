@@ -11,6 +11,10 @@ module.exports = {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       }
     },
+    screens: {
+      'xs': '475px',
+      ...defaultTheme.screens,
+    },
   },
   variants: {
     extend: {},

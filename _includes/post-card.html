@@ -3,12 +3,12 @@
         <div class="flex flex-row flex-1 py-6 px-6">
             <div class="flex-auto w-64">
                 <p class="font-semibold mb-1.5 text-base sm:text-lg">{{ include.title }}</p>
-                <p class="font-normal text-gray-500 text-xs sm:text-base">
+                <p class="font-normal text-slate-500 text-xs sm:text-base">
                     {{ include.excerpt | strip_html | strip_newlines | truncatewords: 20 }}  
                 </p>
             </div>
             <div class="flex-auto w-8 text-right text-xs sm:text-base">
-                <p class="text-gray-400">{{ include.date | date: "%b %d, %Y" }}</p>
+                <p class="text-slate-400">{{ include.date | date: "%b %d, %Y" }}</p>
             </div>
         </div>
     </a>

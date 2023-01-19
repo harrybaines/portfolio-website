@@ -5,6 +5,7 @@ date: 2021-10-18
 thumbnail: /assets/images/projects/2021-10-08-horizon-scanning/graph.png
 layout: project-page
 usemathjax: true
+weight: 3
 ---
 
 Horizon Scanning was a research project I worked on during my time at Yordas Digital which involved investigating the use of AI techniques to forecast probabilities of substances and regulations updating in the next 3 months. Regulatory update data was recorded in internal databases over time since 2008. This data was very valuable - using predictive techniques, we could determine which substances and regulations would update soon (e.g. the next 3 months) based on recorded update data, which enabled us to achieve all of the following:
@@ -19,7 +20,7 @@ The main research questions we formulated were as follows:
 2. Can we develop a model to forecast the likelihood of an update to a substance in the next 3 months?
 
 <figure>
- <img src="/assets/2021-10-18-horizon-scanning/models.png" width="90%" />
+ <img src="/assets/images/projects/2021-10-08-horizon-scanning/models.png" width="90%" />
  <figcaption>Model Diagram</figcaption>
 </figure>
 
@@ -28,7 +29,7 @@ The main research questions we formulated were as follows:
 The original method used machine-learning-based methods to compute probabilities for all substances and regulations using classification techniques (XGBoost and MLP neural networks). Given the lack of data describing each update, feature extraction techniques were used to create new features for each update, such as the day, month, year, and days since the last update. We utilised a full data science pipeline to process and predict from the data:
 
 <figure>
- <img src="/assets/2021-10-18-horizon-scanning/pipeline.png" />
+ <img src="/assets/images/projects/2021-10-08-horizon-scanning/pipeline.png" />
  <figcaption>Data Science Pipeline</figcaption>
 </figure>
 
@@ -77,7 +78,7 @@ This procedure was carried out on a daily basis, which created rolling update pr
 I implemented the procedure in Python and created a Streamlit application to visualise regulation and substance updates through a web browser. This was deployed to our internal server and connected to the live substance database to read regulatory update data from. An example of the output for chromium trioxide in the app is shown below:
 
 <figure>
- <img src="/assets/2021-10-18-horizon-scanning/substance_id_1_updates_62_annotated.png" alt="Horizon scanning app" />
+ <img src="/assets/images/projects/2021-10-08-horizon-scanning/substance_id_1_updates_62_annotated.png" alt="Horizon scanning app" />
  <figcaption>Horizon Scanning Application</figcaption>
 </figure>
 
