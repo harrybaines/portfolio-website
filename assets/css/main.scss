@@ -5,10 +5,8 @@
 @tailwind utilities;
 @tailwind components;
 
-@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
-
 $link-color: rgb(37, 99, 235);
-$base-font: 'Proxima Nova', 'Source Code Pro', monospace;
+$base-font: 'Lato', 'Source Code Pro', monospace;
 
 body {
     margin: 0 auto;
@@ -65,7 +63,7 @@ footer {
 .page-content h1,
 .page-content h2,
 .page-header .prose h1 {
-    font-weight: bold;
+    font-weight: 700;
     font-family: $base-font;
     text-align: center;
     margin-top: 100px;
