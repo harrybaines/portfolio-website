@@ -40,6 +40,7 @@ exclude:
   - Gemfile.lock
   - .jekyll-cache
   - .gitignore
+  - vendor
 
 # Installed Gems
 plugins:
