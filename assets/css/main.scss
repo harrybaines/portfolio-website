@@ -5,10 +5,7 @@
 @tailwind utilities;
 @tailwind components;
 
-@font-face {
-  font-family: "Proxima Nova";
-  src: url("../assets/fonts/Proxima Nova Light.otf");
-}
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
 
 $link-color: rgb(37, 99, 235);
 $base-font: 'Proxima Nova', 'Source Code Pro', monospace;
