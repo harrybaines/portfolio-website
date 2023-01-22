@@ -4,7 +4,7 @@ desc: Some of the work from my Data Science Masters
 date: 2020-09-01
 thumbnail: /assets/images/projects/2020-09-01-msc-data-sci-projects/lancaster.png
 layout: project-page
-weight: 4
+weight: 3
 ---
 
 Here I will share some of the most interesting projects I did during my time at Lancaster studying for my Masters in Data Science (distinction). I have summarised each project, however I will provide links to download the technical reports where appropriate.
