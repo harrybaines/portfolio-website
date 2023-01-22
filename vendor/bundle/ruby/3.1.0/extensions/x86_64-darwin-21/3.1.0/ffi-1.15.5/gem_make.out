@@ -1,5 +1,5 @@
-current directory: /Users/harrybaines/Documents/portfolio-website/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
-/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0 -r ./siteconf20230120-97186-85oxl7.rb extconf.rb
+current directory: /Users/harrybaines/Documents/Documents/portfolio-website/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
+/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0 -r ./siteconf20230122-87764-zuk0b2.rb extconf.rb
 checking for ffi_prep_closure_loc() in -lffi... yes
 checking for ffi_prep_cif_var()... yes
 checking for ffi_raw_call()... yes
@@ -8,10 +8,10 @@ checking for whether -pthread is accepted as LDFLAGS... yes
 creating extconf.h
 creating Makefile
 
-current directory: /Users/harrybaines/Documents/portfolio-website/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
+current directory: /Users/harrybaines/Documents/Documents/portfolio-website/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
 make DESTDIR\= clean
 
-current directory: /Users/harrybaines/Documents/portfolio-website/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
+current directory: /Users/harrybaines/Documents/Documents/portfolio-website/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
 make DESTDIR\=
 compiling AbstractMemory.c
 compiling ArrayType.c
@@ -39,6 +39,6 @@ compiling ffi.c
 linking shared-object ffi_c.bundle
 ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
-current directory: /Users/harrybaines/Documents/portfolio-website/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
+current directory: /Users/harrybaines/Documents/Documents/portfolio-website/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20230120-97186-ckm099
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20230122-87764-npond7
