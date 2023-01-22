@@ -12,7 +12,7 @@ Hi! I'm Harry and I'm currently on sabbatical working on projects, online course
 - I'm obsessed with productivity.
 - I like keeping up-to-date with the latest developments in AI research.
 
-To view my CV, click [here](https://www.linkedin.com/in/harry-baines-400609137/overlay/1635514250655/single-media-viewer/?profileId=ACoAACFfNwABjTogQQAsiO3_bT7t1crMI5l6GiA){:target="_blank"}.
+You can download my CV [here](/assets/CV.pdf){:target="_blank"}.
 
 ## Tech 💻
 
