@@ -1,11 +1,11 @@
-current directory: /Users/harrybaines/Documents/Documents/portfolio-website/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0 -r ./siteconf20230122-87764-ajm205.rb extconf.rb
+current directory: /Users/harrybaines/LocalCoding/portfolio-website/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0 -r ./siteconf20230124-42050-trliqb.rb extconf.rb
 creating Makefile
 
-current directory: /Users/harrybaines/Documents/Documents/portfolio-website/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+current directory: /Users/harrybaines/LocalCoding/portfolio-website/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
 make DESTDIR\= clean
 
-current directory: /Users/harrybaines/Documents/Documents/portfolio-website/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+current directory: /Users/harrybaines/LocalCoding/portfolio-website/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
 make DESTDIR\=
 compiling ruby_http_parser.c
 ruby_http_parser.c:365:17: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'long' [-Wsign-compare]
@@ -16,6 +16,6 @@ compiling ryah_http_parser.c
 linking shared-object ruby_http_parser.bundle
 ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
-current directory: /Users/harrybaines/Documents/Documents/portfolio-website/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+current directory: /Users/harrybaines/LocalCoding/portfolio-website/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20230122-87764-wdtvvk
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20230124-42050-6oda4t
