@@ -8,9 +8,9 @@ usemathjax: true
 weight: 2
 ---
 
-Horizon Scanning was a research project I worked on during my time at Yordas Digital which involved investigating the use of AI techniques to forecast probabilities of substances and regulations updating in the next 3 months. Regulatory update data was recorded in internal databases over time since 2008. This data was very valuable - using predictive techniques, we could determine which substances and regulations would update soon (e.g. the next 3 months) based on recorded update data, which enabled us to achieve all of the following:
+Horizon Scanning was a research project I worked on during my time at Yordas Digital which involved investigating the use of AI techniques to forecast probabilities of substances and regulations updating in the next 3 months. Regulatory update data was recorded in internal databases over time since 2008. This data was very valuable - using predictive techniques, we could determine which substances and regulations could update soon (e.g. the next 3 months) based on recorded update data. This enabled us to achieve all of the following:
 
-- Inform clients of which substances in their product was likely to update soon
+- Inform clients of which substances in their product were likely to update soon
 - Prioritise which internal regulatory checks to perform (e.g. if one substance has a 98% chance of updating in the next 3 months relative to another substance with a 20% of updating, that is very useful information)
 - Provide programmatic access to update probabilities through an API
 
@@ -50,12 +50,12 @@ We can use this model for forecasting substance/regulation updates as we can say
 To compute probability scores we can use the Poisson distribution PMF (probability mass function) given our data:
 
 $$
-p(x) = \frac{e^{-\lambda}\lambda^x}{x!}
+f(x) = \frac{e^{-\lambda}\lambda^x}{x!}
 $$
 
 where $$\lambda$$ is the average number of events per interval, and $$x$$ is the number of events in each interval.
 
-A useful equation we can derive from this PMF helps us calculate the probability we expect to wait less than or equal to a time:
+A useful equation we can derive from this PMF will allow us to calculate the probability we expect to wait less than or equal to a time:
 
 $$
 P(T \leq t) = 1 - e^{-\lambda t}
@@ -63,7 +63,7 @@ $$
 
 In this case, we are only interested in whether 1 update occurs in the next 3 months, but we could also calculate the probability a certain number of updates occur in the next $$x$$ months as well.
 
-For example, let’s say substance X has been updated 15 times from 2012-2021 (9 years). We want to calculate the probability of an update in the next 3 months from today. To do this we first calculate $$\lambda$$, the average number of events occurring (using months as the unit of time):
+For example, let’s say the substance 'Formaldehyde' has updated 15 times from 2012-2021. We want to calculate the probability of an update in the next 3 months from today. To do this we first calculate $$\lambda$$, the average number of events occurring in that 9 year timeframe (using months as the unit of time):
 
 $$\lambda = \frac{15}{9 * 12} = 0.1388888889$$
 
