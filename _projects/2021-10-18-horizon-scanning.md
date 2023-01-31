@@ -5,7 +5,7 @@ date: 2021-10-18
 thumbnail: /assets/images/projects/2021-10-08-horizon-scanning/graph.png
 layout: project-page
 usemathjax: true
-weight: 2
+weight: 1
 ---
 
 Horizon Scanning was a research project I worked on during my time at Yordas Digital which involved investigating the use of AI techniques to forecast probabilities of substances and regulations updating in the next 3 months. Regulatory update data was recorded in internal databases over time since 2008. This data was very valuable - using predictive techniques, we could determine which substances and regulations could update soon (e.g. the next 3 months) based on recorded update data. This enabled us to achieve all of the following:

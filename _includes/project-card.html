@@ -1,20 +1,9 @@
-<div class="bg-white rounded-lg drop-shadow-md project-wide">
-    <a href="{{ include.url }}" class="mb-4 cursor-pointer">
-        <div class="flex">
-            <img class="max-w-[150px] max-h-[150px] rounded-l-lg flex-1 flex-shrink-0" src="{{ include.thumbnail }}" alt="Project Image">  
-            <div class="flex-1r p-5">
-                <h3 class="font-semibold mb-1.5 text-lg sm:text-xl">{{ include.title }}</h3>
-                <p class="text-slate-500 text-sm xs:text-base">{{ include.desc }}</p>
-            </div>
+<a href="{{ include.url }}" class="cursor-pointer"> 
+    <div class="flex flex-row bg-white drop-shadow-md rounded-lg hover:shadow-md">
+        <img class="h-32 w-32 xs:h-36 xs:w-36 object-cover object-center rounded-l-lg" src="{{ include.thumbnail }}" alt="Project Thumbnail">
+        <div class="flex flex-col pl-4 xs:pl-6 pr-2 xs:pr-4">
+            <h3 class="text-base sm:text-lg md:text-base lg:text-lg font-bold mb-2 mt-3.5">{{ include.title }}</h3>
+            <p class="text-sm sm:text-base md:text-sm lg:text-base text-slate-600">{{ include.desc }}</p>
         </div>
-    </a>
-</div>
-<div class="bg-white rounded-lg shadow-lg min-h-[380px] max-w-[235px] project-tall">
-    <a href="{{ include.url }}" class="mb-4 cursor-pointer">
-        <img src="{{ include.thumbnail }}" alt="Project 1 Thumbnail" class="w-full h-44 sm:h-52 md:h-56 rounded-t-lg">
-        <div class="p-5">
-            <h3 class="font-semibold mb-1.5 text-xl">{{ include.title }}</h3>
-            <p class="text-slate-500">{{ include.desc }}</p>
-        </div>
-    </a>
-</div>
+    </div>
+</a>
