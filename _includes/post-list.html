@@ -1,6 +1,9 @@
-<ul>
-    {% assign posts = site.posts | sort: 'date' | reverse %}
-    {% for post in posts %}
-        {% include post-card.html title=post.title excerpt=post.excerpt date=post.date url=post.url  %}
-    {% endfor %}
-</ul>
+<div class="m-auto max-w-[85%] md:max-w-[44rem] lg:max-w-[52rem]">
+
+    <ul>
+        {% assign posts = site.posts | sort: 'date' | reverse %}
+        {% for post in posts %}
+            {% include post-card.html title=post.title excerpt=post.excerpt date=post.date url=post.url  %}
+        {% endfor %}
+    </ul>
+</div>

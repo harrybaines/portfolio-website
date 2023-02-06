@@ -27,9 +27,9 @@ permalink: pretty
 # Site navigation
 navigation:
   - title: Projects
-    url: /projects.html
+    url: \#projects
   - title: Posts
-    url: /posts.html
+    url: \#posts
   - title: About
     url: /about.html
 

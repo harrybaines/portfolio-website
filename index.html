@@ -8,8 +8,8 @@ title: Home
         <div class='row px-2 xs:px-0'>
             <div class='double-column py-20 sm:py-10'>
                 <div class='right-column'>
-                    <h1 id='name' class="font-bold mb-6 text-4xl xs:text-5xl"></h1>
-                    <p class="font-normal text-slate-600 mb-6 text-xl xs:text-2xl">
+                    <h1 id='name' class="font-bold mb-5 text-4xl xs:text-5xl"></h1>
+                    <p class="font-normal text-slate-600 mb-5 text-xl xs:text-2xl">
                         Data Scientist | Python Engineer <br />
                     </p>
                     <div>
@@ -62,14 +62,14 @@ title: Home
         </div>
     </div>
 </section>
-<section>
+<section id="projects">
     <div class="m-auto max-w-[85%] md:max-w-[44rem] lg:max-w-[52rem]">
         <h1 class="font-bold mb-6 text-3xl xs:text-4xl">Projects</h1>
         <p class="mb-10 text-xl text-slate-700">To view all my projects, click <a href="{{ site.social.github }}" id="projects-all-link" target="_blank">here</a>.</p>
         {% include project-list.html %}
     </div>
 </section>
-<section>
+<section id="posts">
     <div class="m-auto max-w-[85%] md:max-w-[44rem] lg:max-w-[52rem]">
         <h1 class="font-bold mb-10 text-3xl xs:text-4xl">Posts</h1>
         {% include post-list.html %}
