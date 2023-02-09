@@ -22,15 +22,20 @@ blockquote p {
     font-style: normal;
     quotes: none;
 }
-footer {
-    display: table;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
 .inner-container {
     margin: 0 auto;
     max-width: 85%;
+}
+.inner-container h2 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 1.875rem;
+}
+@media screen and (min-width: 475px) {
+    .inner-container h2 {
+        margin-bottom: 1.25rem;
+        font-size: 2rem;
+    }
 }
 @media screen and (min-width: 768px) {
     .inner-container {
@@ -104,30 +109,28 @@ figure img {
 .page-header {
     margin-bottom: 48px;
 }
-#highlight {
-    text-align: left;
-}
-@media screen and (min-width: 768px) {
-    #highlight {
-        padding: 250px 0px;
-    }
-}
-#about-intro img {
+#about img {
     max-width: 175px;
     max-height: 175px;
     border: 2px solid white;
     border-radius: 50%;
+    margin-right: 0px;
+    margin-top: 1.25rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     filter: brightness(100%);
-    margin-right: 0px;
 }
 @media screen and (min-width: 768px) {
-    #about-intro img {
-        max-width: 200px;
-        max-height: 200px;
+    #about img {
+        max-width: 190px;
+        max-height: 190px;
     }
 }
-#about-intro a {
+@media screen and (min-width: 1024px) {
+    #about img {
+        margin-top: 0rem;
+    }
+}
+#about a {
     text-decoration: underline;
     color: $link-color;
 }
@@ -144,20 +147,6 @@ figure img {
     list-style-type: none;
     padding: 0;
 }
-.project-wide {
-    display: block;
-}
-.project-tall {
-    display: none;
-}
-@media screen and (min-width: 768px) {
-    .project-wide {
-        display: none;
-    }
-    .project-tall {
-        display: block;
-    }
- }
 .row {
     display: flex;
     flex-direction: row;
@@ -176,7 +165,7 @@ figure img {
 .right-column {
     height: 100%;
 }
-.double-column {
+#double-column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -185,9 +174,27 @@ figure img {
     .column {
         flex: 1;
     }
-    .double-column {
+    #double-column {
         flex: 2;
     }
+}
+.icon {
+    text-decoration: none;
+    margin-right: 16px;
+}
+.icon i {
+    color: rgb(100,100,100);
+    font-size: 1.75em;
+    transition: all 0.1s ease-in-out;
+}
+.icon i:hover {
+    filter: brightness(80%);
+}
+footer {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Code syntax highlighting */
 .highlight pre { 
@@ -259,16 +266,3 @@ figure img {
 .highlight .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
 .highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
-
-.icon {
-    text-decoration: none;
-    margin-right: 16px;
-}
-.icon i {
-    color: rgb(100,100,100);
-    font-size: 1.75em;
-    transition: all 0.1s ease-in-out;
-}
-.icon i:hover {
-    filter: brightness(80%);
-}
