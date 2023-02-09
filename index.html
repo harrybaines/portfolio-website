@@ -3,16 +3,27 @@ layout: default
 title: Home
 ---
 
-<section id="highlight" class="py-24">
-    <div class="m-auto max-w-[85%] md:max-w-[44rem] lg:max-w-[52rem]">
+<section id="highlight">
+    <div class="inner-container">
         <div class='row px-2 xs:px-0'>
-            <div class='double-column py-20 sm:py-10'>
+            <div class='double-column py-2'>
                 <div class='right-column'>
-                    <h1 id='name' class="font-bold mb-5 text-4xl xs:text-5xl"></h1>
-                    <p class="font-normal text-slate-600 mb-6 text-xl xs:text-2xl">
+                    <h1 id='name' class="font-bold mb-7 text-4xl xs:text-5xl"></h1>
+                    <p class="font-normal text-slate-600 mb-7 text-xl xs:text-2xl">
                         Data Scientist | Python Engineer <br />
                     </p>
-                    <div>
+                    <div class="my-8">
+                        <a href="/about" class="text-sm xs:text-lg text-center block max-w-[150px] xs:inline-block bg-zinc-100 hover:bg-zinc-300 text-gray-800 font-bold py-2 px-5 rounded mb-2 xs: mb-none xs:mr-3 transition-all">
+                            About
+                        </a>
+                        <a href="#projects" class="text-sm xs:text-lg text-center block max-w-[150px] xs:inline-block bg-zinc-100 hover:bg-zinc-300 text-gray-800 font-bold py-2 px-5 rounded mb-2 xs: mb-none mr-3 transition-all">
+                            Projects
+                        </a>
+                        <a href="#posts" class="text-sm xs:text-lg text-center block max-w-[150px] xs:inline-block bg-zinc-100 hover:bg-zinc-300 text-gray-800 font-bold py-2 px-5 rounded mb-2 xs: mb-none mr-3 transition-all">
+                            Posts
+                        </a>
+                    </div>
+                    <div class="my-10">
                         <a class="icon" target="_blank" rel="noopener" href="{{ site.social.github }}" aria-label="GitHub">
                             <i class="fa-brands fa-github" aria-hidden="true"></i>
                         </a>
@@ -32,21 +43,22 @@ title: Home
     </div>
 </section>
 <section id="about-intro" class="bg-zinc-50">
-    <div class="m-auto max-w-[85%] md:max-w-[44rem] lg:max-w-[52rem]">
+    <div class="inner-container">
         <h1 class="font-bold mb-2 xs:mb-5 text-3xl xs:text-4xl">About Me</h1>
+        <hr />
         <div class='row'>
-            <div class='double-column py-4 text-slate-700 mr-none lg:mr-12 text-lg xs:text-xl'>
+            <div class='double-column py-4 text-slate-700 mr-none lg:mr-12 text-lg sm:text-xl'>
                 <div class='left-column'>
-                    <p class="mb-2">
+                    <p class="mb-3">
                         I'm a Data Scientist in the UK with 2 years experience.
                     </p>
-                    <p class="mb-2">
+                    <p class="mb-3">
                         I build AI and machine learning systems.
                     </p>
-                    <p class="mb-2">
+                    <p class="mb-3">
                         I enjoy extracting insights from data.
                     </p>
-                    <p class="mb-2">
+                    <p class="mb-3">
                         I'm also a proficient Python programmer.
                     </p>
                     <p>
@@ -63,20 +75,22 @@ title: Home
     </div>
 </section>
 <section id="projects">
-    <div class="m-auto max-w-[85%] md:max-w-[44rem] lg:max-w-[52rem]">
+    <div class="inner-container">
         <h1 class="font-bold mb-6 text-3xl xs:text-4xl">Projects</h1>
+        <hr />
         <p class="mb-10 text-xl text-slate-700">To view all my projects, click <a href="{{ site.social.github }}" id="projects-all-link" target="_blank">here</a>.</p>
         {% include project-list.html %}
     </div>
 </section>
 <section id="posts">
-    <div class="m-auto max-w-[85%] md:max-w-[44rem] lg:max-w-[52rem]">
-        <h1 class="font-bold mb-10 text-3xl xs:text-4xl">Posts</h1>
+    <div class="inner-container">
+        <h1 class="font-bold mb-6 text-3xl xs:text-4xl">Posts</h1>
+        <hr />
         {% include post-list.html %}
     </div>
 </section>
 <section class="bg-zinc-50 text-center">
-    <div class="m-auto max-w-[85%] md:max-w-[44rem] lg:max-w-[52rem]">
+    <div class="inner-container">
         <p class="font-bold text-base xs:text-2xl">
             "More than 500 million years ago, vision became the primary driving force of evolution's &#x2018;big bang&#x2019;, the Cambrian Explosion, which resulted in explosive speciation of the animal kingdom. 500 million years later, AI technology is at the verge of changing the landscape of how humans live, work, communicate, and shape our environment."
         </p>

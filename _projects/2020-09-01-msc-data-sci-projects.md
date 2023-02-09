@@ -1,9 +1,10 @@
 ---
 title: MSc Projects
-desc: Some of the work from my Data Science Masters
+desc: Some of the work I completed during my Masters in Data Science 
 date: 2020-09-01
 thumbnail: /assets/images/projects/2020-09-01-msc-data-sci-projects/lancaster.png
 layout: project-page
+tag: Data Science
 weight: 3
 ---
 

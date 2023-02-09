@@ -16,7 +16,7 @@ body {
     -webkit-font-smoothing: antialiased !important;
 }
 section {
-  padding: 100px 0px;
+    padding: 8rem 0;
 }
 blockquote p {
     font-style: normal;
@@ -28,6 +28,21 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+.inner-container {
+    margin: 0 auto;
+    max-width: 85%;
+}
+@media screen and (min-width: 768px) {
+    .inner-container {
+        max-width: 44rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .inner-container {
+        max-width: 58rem;
+    }
+}
+// For posts and projects
 .page-content {
     padding-left: 24px;
     padding-right: 24px;
@@ -41,7 +56,6 @@ footer {
 }
 .prose {
     font-size: 18px;
-    // font-family: 'Inter', sans-serif;
     max-width: 44rem;
     margin-bottom: 40px;
     margin-top: 50px;
@@ -74,6 +88,10 @@ hr {
     border-width: 2px;
     margin: 0 auto;
 }
+.inner-container hr {
+    margin: 16px 0px;
+    max-width: 125px;
+}
 figure {
     max-width: 100%;
     padding: 15px;
@@ -87,7 +105,6 @@ figure img {
     margin-bottom: 48px;
 }
 #highlight {
-    // padding: 40px 0px;
     text-align: left;
 }
 @media screen and (min-width: 768px) {
@@ -99,11 +116,12 @@ figure img {
     max-width: 175px;
     max-height: 175px;
     border: 2px solid white;
+    border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     filter: brightness(100%);
     margin-right: 0px;
 }
-@media screen and (min-width: 465px) {
+@media screen and (min-width: 768px) {
     #about-intro img {
         max-width: 200px;
         max-height: 200px;
@@ -237,7 +255,6 @@ figure img {
 .highlight .vg { color: #f8f8f2 } /* Name.Variable.Global */
 .highlight .vi { color: #f8f8f2 } /* Name.Variable.Instance */
 .highlight .il { color: #ae81ff } /* Literal.Number.Integer.Long */
-
 .highlight .gh { } /* Generic Heading & Diff Header */
 .highlight .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
 .highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
@@ -245,12 +262,11 @@ figure img {
 
 .icon {
     text-decoration: none;
-    margin-right: 14px;
-    // background-color: white;
+    margin-right: 16px;
 }
 .icon i {
     color: rgb(100,100,100);
-    font-size: 1.6em;
+    font-size: 1.75em;
     transition: all 0.1s ease-in-out;
 }
 .icon i:hover {
