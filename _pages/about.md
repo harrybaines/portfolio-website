@@ -14,6 +14,8 @@ Hi! I'm Harry and I'm currently on sabbatical working on projects, online course
 
 You can download my CV [here](/assets/CV.pdf){:target="_blank"}.
 
+---
+
 ## Tech 💻
 
 I've primarily been in the Apple ecosystem circa 2008, however I do like to branch out and try other products. 
@@ -32,6 +34,8 @@ My current setup is:
 - AirPods Pro 1st Gen (for podcasts, audiobooks and study music)
 - Sony WH1000XM3 headphones (for general music)
 
+---
+
 ## Productivity ✏️
 
 I'm obsessed with productivity and being organised. Having tried every productivity app under the sun, I've finally settled on the following setup:
@@ -44,6 +48,7 @@ I'm obsessed with productivity and being organised. Having tried every productiv
 - GoodNotes (for taking hand-written notes on iPad)
 - Grammarly (for spell-checking and general language checks for blog posts)
 
+---
 ## Running 🏃🏻‍♂️
 
 My current gear is the following:
@@ -70,6 +75,8 @@ My fuelling and post-workout nutrition is the following:
 I do parkrun most weekends depending on my training routine. Follow me on Strava if you're into running!
 
 <iframe height='454' width='100%' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/7314947/latest-rides/010cd5a00e54ce6c316288eec91a6803b602ccfc'></iframe>
+
+---
 
 ## Others 👨🏻‍💼
 

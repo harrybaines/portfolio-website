@@ -6,8 +6,17 @@
 @tailwind components;
 
 $link-color: rgb(37, 99, 235);
+$base-color: rgb(31, 41, 55);
 $base-font: 'Space Grotesk', 'Source Code Pro', monospace;
 
+$sm: 640px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+
+* {
+    color: $base-color;
+}
 body {
     margin: 0 auto;
     font-family: $base-font;
@@ -42,12 +51,12 @@ blockquote p {
         font-size: 2rem;
     }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: $md) {
     .inner-container {
         max-width: 44rem;
     }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: $lg) {
     .inner-container {
         max-width: 58rem;
     }
@@ -56,29 +65,6 @@ blockquote p {
 .page-content {
     padding-left: 24px;
     padding-right: 24px;
-}
-@media screen and (min-width: 768px) {
-    .page-content {
-        max-width: 48rem;
-        margin: 0px auto;
-        padding: 0;
-    }
-}
-.prose {
-    font-size: 18px;
-    max-width: 44rem;
-    margin-bottom: 40px;
-    margin-top: 50px;
-    line-height: 30px;
-}
-.prose h1 {
-    margin: 70px 0px 12px 0px;
-}
-.prose h2 {
-    margin: 70px 0px 30px 0px;
-}
-.prose li p {
-    margin: 12px 0px;
 }
 .page-content h1 {
     font-size: 2.25rem;
@@ -90,13 +76,48 @@ blockquote p {
     font-weight: 700;
     font-family: $base-font;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 75px;
+}
+.prose {
+    font-size: 16px;
+    max-width: 44rem;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    line-height: 30px;
+}
+@media screen and (min-width: $sm) {
+    .prose {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: $md) {
+    .page-content {
+        max-width: 48rem;
+        margin: 0px auto;
+        padding: 0;
+    }
+    .page-content h1 {
+        margin-top: 100px;
+    }
+}
+.prose h1 {
+    margin: 100px 0px 12px 0px;
+}
+.prose h2 {
+    margin: 50px 0px 30px 0px;
+}
+.prose li p {
+    margin: 12px 0px;
 }
 hr {
     max-width: 200px;
     border-radius: 10px;
     border-width: 2px;
     margin: 0 auto;
+}
+.prose hr {
+    max-width: 100%;
+    margin-bottom: 0px;
 }
 .inner-container hr {
     margin: 16px 0px;
@@ -124,13 +145,13 @@ figure img {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     filter: brightness(100%);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: $md) {
     #about img {
         max-width: 190px;
         max-height: 190px;
     }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: $lg) {
     #about img {
         margin-top: 0rem;
     }
@@ -175,7 +196,7 @@ figure img {
     flex-direction: column;
     flex-basis: 100%;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: $md) {
     .column {
         flex: 1;
     }
