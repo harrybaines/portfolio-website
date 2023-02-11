@@ -6,6 +6,8 @@ layout: about-page
 Hi! I'm Harry and I'm currently on sabbatical working on projects, online courses and exploring my hobbies and interests.
 
 - I'm interested in machine learning, artificial intelligence and full-stack software engineering.
+- I enjoy building ML systems and extracting insights from data.
+- I'm a proficient Python programmer with over 8 years of experience.
 - I have previously worked for 2 years as a Data Scientist at [Yordas Digital](https://www.yordasgroup.com/){:target="_blank"}.
 - I studied BSc Computer Science (First Class) and MSc Data Science (Distinction) at Lancaster University.
 - During my second year at Lancaster University in 2018 I created and sold a [full-stack time management application](https://www.ca-tms.com/){:target="_blank"} to a large architecture firm as a side project. It is currently being used by over 60 employees on a daily basis.

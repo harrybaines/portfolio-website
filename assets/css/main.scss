@@ -25,9 +25,9 @@ body {
 section {
     padding: 5rem 0;
 }
-@media screen and (min-width: 465px) {
+@media screen and (min-width: 475px) {
     section {
-        padding: 8rem 0;
+        padding: 6rem 0;
     }
 }
 blockquote p {
@@ -57,6 +57,9 @@ blockquote p {
 @media screen and (min-width: $lg) {
     .inner-container {
         max-width: 58rem;
+    }
+    #highlight .inner-container {
+        max-width: 62rem;
     }
 }
 // For posts and projects
@@ -137,29 +140,36 @@ figure img {
 .page-header {
     margin-bottom: 3rem;
 }
-#about img {
+#highlight img {
     max-width: 175px;
     max-height: 175px;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 50%;
     margin-right: 0px;
-    margin-top: 1.75rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     filter: brightness(100%);
 }
+@media screen and (min-width: $sm) {
+    #highlight img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
 @media screen and (min-width: $md) {
-    #about img {
-        max-width: 190px;
-        max-height: 190px;
+    #highlight img {
+        max-width: 200px;
+        max-height: 200px;
     }
 }
 @media screen and (min-width: $lg) {
-    #about img {
+    #highlight img {
         margin-top: 0rem;
+        max-width: 225px;
+        max-height: 225px;
     }
 }
-#about a {
-    text-decoration: underline;
+#highlight a {
+    text-decoration: none;
     color: $link-color;
 }
 #projects-container {
@@ -208,7 +218,7 @@ figure img {
 }
 .icon {
     text-decoration: none;
-    margin-right: 16px;
+    margin-right: 20px;
 }
 .icon i {
     color: rgb(100,100,100);
