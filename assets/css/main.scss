@@ -14,10 +14,8 @@ $md: 768px;
 $lg: 1024px;
 $xl: 1280px;
 
-* {
-    color: $base-color;
-}
 body {
+    color: $base-color;
     margin: 0 auto;
     font-family: $base-font;
     font-weight: 400;
@@ -62,6 +60,10 @@ blockquote p {
     }
 }
 // For posts and projects
+.code-view-link {
+    color: white !important;
+    text-decoration: none;
+}
 .page-content {
     padding-left: 24px;
     padding-right: 24px;
@@ -133,7 +135,7 @@ figure img {
     margin: 0 auto;
 }
 .page-header {
-    margin-bottom: 48px;
+    margin-bottom: 3rem;
 }
 #about img {
     max-width: 175px;

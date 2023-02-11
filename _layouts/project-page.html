@@ -8,35 +8,35 @@ layout: default
             <p class="text-center text-slate-500 text-base">{{ page.date | date_to_long_string: "ordinal", "US" }}</p>
             {% include read-time.html %}
         </header>
+        <div class="text-center mb-12">
+            {% if page.view_link != nil %}
+                <a
+                    href="{{ page.view_link }}"
+                    target="_blank"
+                    class="code-view-link text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 font-bold py-2 px-4 rounded inline-flex items-center focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                >
+                    <span>View</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ml-2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                </a>
+            {% endif %}
+            {% if page.code_link != nil %}
+                <a 
+                    href="{{ page.code_link }}"
+                    target="_blank"
+                    class="code-view-link text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 font-bold py-2 px-4 rounded inline-flex items-center focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                >
+                    <span>Code</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ml-2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
+                    </svg>                  
+                </a>
+            {% endif %}
+        </div>
         <article class="post-content">
             {{ content | toc }}
         </article>
-    </div>
-    <div class="text-center mb-12">
-        {% if page.view_link != nil %}
-            <a
-                href="{{ page.view_link }}"
-                target="_blank"
-                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 font-bold py-2 px-4 rounded inline-flex items-center focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-            >
-                <span>View</span>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ml-2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-                </svg>
-            </a>
-        {% endif %}
-        {% if page.code_link != nil %}
-            <a 
-                href="{{ page.code_link }}"
-                target="_blank"
-                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 font-bold py-2 px-4 rounded inline-flex items-center focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-            >
-                <span>Code</span>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ml-2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
-                </svg>                  
-            </a>
-        {% endif %}
     </div>
 </div>
 {% include newsletter.html %}
