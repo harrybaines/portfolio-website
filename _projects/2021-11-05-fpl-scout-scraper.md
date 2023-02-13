@@ -37,7 +37,9 @@ To build this app, I created a Discord bot that carries out the following steps:
 5. Find the scout picks `<div>` element.
 6. Take a screenshot of that element and return it to the user.
 
-This saves me a lot of time when I want to check the scout picks! View the final result below:
+This saves me a lot of time when I want to check the scout picks!
+
+The bot is deployed on Heroku. View the final result below:
 
 <video width="100%" height="500" controls playsinline muted>
   <source src="/assets/images/projects/2021-11-05-fpl-scout-scraper/bot.mp4" type="video/mp4">
