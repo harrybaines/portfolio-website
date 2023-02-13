@@ -121,7 +121,8 @@ hr {
     margin: 0 auto;
 }
 .prose hr {
-    max-width: 100%;
+    max-width: 50%;
+    border-width: 1px;
     margin-bottom: 0px;
 }
 .inner-container hr {
@@ -138,7 +139,7 @@ figure img {
     margin: 0 auto;
 }
 .page-header {
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 #highlight img {
     max-width: 175px;

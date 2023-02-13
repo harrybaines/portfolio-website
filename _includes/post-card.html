@@ -2,8 +2,8 @@
     <a href="{{ include.url }}" class="flex flex-wrap items-start mb-5">
         <div class="flex flex-row flex-1 p-6">
             <div class="flex-auto w-44 xs:w-96">
-                <p class="font-semibold mb-1.5 text-base sm:text-xl">{{ include.title }}</p>
-                <p class="font-normal text-gray-600 text-sm sm:text-base">
+                <p class="font-semibold mb-1.5 text-base sm:text-lg md:text-base lg:text-xl">{{ include.title }}</p>
+                <p class="font-normal text-gray-600 text-sm sm:text-base md:text-sm lg:text-base">
                     {{ include.excerpt | strip_html | strip_newlines | truncatewords: 25 }}  
                 </p>
             </div>
