@@ -1,5 +1,5 @@
 ---
-title: AI Avatars 👨🏻
+title: AI Avatars
 desc: Dreambooth Stable Diffusion to create high-quality, personalised AI avatars
 date: 2023-01-18
 thumbnail: /assets/images/projects/2023-01-18-ai-avatars/avatar.png

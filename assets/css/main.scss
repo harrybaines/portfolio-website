@@ -63,8 +63,10 @@ blockquote p {
     }
 }
 // For posts and projects
+.post-list ul li:last-child {
+    border-bottom: 0px !important;
+}
 .code-view-link {
-    color: white !important;
     text-decoration: none;
 }
 .page-content {

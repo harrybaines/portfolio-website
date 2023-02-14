@@ -1,5 +1,5 @@
 ---
-title: FPL Scout Scraper 🕵🏻
+title: FPL Scout Scraper
 desc: Data scraping of the Fantasy Football Scout website
 date: 2021-11-05
 layout: project-page

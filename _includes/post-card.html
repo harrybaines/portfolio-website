@@ -7,8 +7,8 @@
                     {{ include.excerpt | strip_html | strip_newlines | truncatewords: 25 }}  
                 </p>
             </div>
-            <div class="flex-auto hidden sm:block w-1 xs:w-2 text-right text-xs sm:text-base">
-                <p class="text-slate-400">{{ include.date | date: "%b %d, %Y" }}</p>
+            <div class="flex-auto font-mono hidden sm:block w-1 xs:w-2 text-right text-xs sm:text-base">
+                <p class="text-slate-500">{{ include.date | date: "%b %d, %Y" }}</p>
             </div>
         </div>
     </a>
