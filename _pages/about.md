@@ -77,12 +77,3 @@ My fuelling and post-workout nutrition is the following:
 I do parkrun most weekends depending on my training routine. Follow me on Strava if you're into running!
 
 <iframe height='454' width='100%' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/7314947/latest-rides/010cd5a00e54ce6c316288eec91a6803b602ccfc'></iframe>
-
----
-
-## Others 👨🏻‍💼
-
-- I believe in simplicity and elegance. Websites, applications and AI algorithms can be over-engineered sometimes (inspiration taken from [here](https://motherfuckingwebsite.com/){:target="_blank"}).
-- I like building things from scratch so I understand the tools I use.
-- I like to spend time mastering the fundamentals to make life easier further down the line with the more advanced material.
-- Work hard, play hard!
