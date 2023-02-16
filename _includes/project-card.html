@@ -1,22 +1,16 @@
-<div class="flex flex-row bg-white shadow-md rounded border-l-4 border-sky-700">
-    <div class="pt-6 px-6 pb-4 mt-0.5 relative w-full">
-        <a href="{{ include.url }}" class="cursor-pointer"> 
-            <h3 class="mb-2 font-bold text-base sm:text-lg md:text-base lg:text-[21px] hover:underline">{{ include.title }}</h3>
-        </a>
-        <p class="text-slate-500 font-mono mb-2">{{ include.date | date: "%Y" }}</p>
-        <p class="text-gray-700 mb-4 text-sm sm:text-base md:text-sm lg:text-base">
-            {{ include.desc }}
-        </p>
-        <div class="absolute font-mono border-2 text-xs md:text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full top-4 right-0.5">
-            {{ include.tag }}
-        </div>
-        {% if include.demo_link != nil %}
-            {% include view-link.html demo_link=include.demo_link btn_text="Demo" new_tab=false %}
-        {% else %}
-            {% include view-link.html demo_link=include.url btn_text="Article" new_tab=false %}
-        {% endif %}
-        {% if include.code_link != nil %}
-            {% include code-link.html code_link=include.code_link new_tab=false %}
-        {% endif %}
+<div class="bg-white rounded-sm drop-shadow-md p-8 border-l-[3px] border-sky-700">
+    <a href="{{ include.url }}" class="block mb-3 font-bold text-lg lg:text-xl hover:underline">
+        {{ include.title }}
+    </a>
+    <div class="mb-5 text-gray-700 text-sm sm:text-base md:text-base">
+        {{ include.desc }}
     </div>
+    {% if include.demo_link != nil %}
+        {% include view-link.html demo_link=include.demo_link btn_text="Demo" new_tab=false %}
+    {% else %}
+        {% include view-link.html demo_link=include.url btn_text="Article" new_tab=false %}
+    {% endif %}
+    {% if include.code_link != nil %}
+        {% include code-link.html code_link=include.code_link new_tab=false %}
+    {% endif %}
 </div>

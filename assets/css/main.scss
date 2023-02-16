@@ -60,9 +60,6 @@ blockquote p {
 }
 @media screen and (min-width: $lg) {
     .inner-container {
-        max-width: 58rem;
-    }
-    #highlight .inner-container {
         max-width: 62rem;
     }
 }

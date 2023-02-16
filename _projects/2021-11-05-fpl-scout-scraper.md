@@ -1,6 +1,6 @@
 ---
 title: FPL Scout Scraper
-desc: Data scraping of the Fantasy Football Scout website
+desc: Data scraping of the scout picks from the Fantasy Football Scout website
 date: 2021-11-05
 layout: project-page
 tag: Data Scraping
