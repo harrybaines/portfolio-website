@@ -1,7 +1,7 @@
 ---
 title: FPL Scout Scraper
 desc: Data scraping of the scout picks from the Fantasy Football Scout website
-date: 2021-11-05
+date: 2023-02-13
 layout: project-page
 tag: Data Scraping
 code_link: https://github.com/harrybaines/FPL-discord-bot

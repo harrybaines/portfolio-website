@@ -1,3 +1,56 @@
-<footer class="text-slate-500 text-base xs:text-lg px-5 py-16 xs:p-20">
-    <p>© Copyright 2023 Harry Baines. Handcrafted with Jekyll and Tailwind CSS.</p>
-</footer>
+<footer class="bg-zinc-50 text-slate-500 text-base xs:text-lg px-none py-16 sm:px-12 sm:py-16">
+    <div class="flex flex-wrap inner-container">
+      <div class="w-full sm:w-3/5 md:w-2/4">
+        <h3 class="text-1.5xl uppercase font-bold mb-3">
+            Harry Baines
+        </h3>
+        <div class="text-gray-400 leading-snug mr-10">
+          <p>Handcrafted with Jekyll and Tailwind CSS.</p>
+        </div>
+      </div>
+      <div class="w-full sm:w-1/5 md:w-1/4 mt-5 sm:mt-0">
+        <h3 class="text-xl font-bold mb-2">
+            Contact
+        </h3>
+        <ul class="list-reset leading-tight">
+            <li class="mb-2">
+                <a href="{{ site.social.github }}" class="hover:text-gray-400 text-gray-500" target="_blank" rel="noopener" aria-label="GitHub">
+                    GitHub
+                </a>
+            </li>
+            <li class="mb-2">
+                <a href="{{ site.social.twitter }}" class="hover:text-gray-400 text-gray-500" target="_blank" rel="noopener" aria-label="Twitter">
+                    Twitter
+                </a>
+            </li>
+            <li class="mb-2">
+                <a href="{{ site.social.linkedin }}" class="hover:text-gray-400 text-gray-500" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    LinkedIn
+                </a>
+            </li>
+            <li class="mb-2">
+                <a href="mailto:{{ site.email }}" class="hover:text-gray-400 text-gray-500" target="_blank" rel="noopener" aria-label="Email">
+                    Email
+                </a>
+            </li>
+        </ul>
+      </div>
+      <div class="w-full sm:w-1/5 md:w-1/4 mt-5 sm:mt-0">
+        <h3 class="text-xl font-bold mb-2">
+            Links
+        </h3>
+        <ul class="list-reset leading-tight">
+          <li class="mb-2">
+            <a href="/about" class="hover:text-gray-400 text-gray-500">About</a>
+          </li>
+          <li class="mb-2">
+            <a href="#projects" class="hover:text-gray-400 text-gray-500">Projects</a>
+          </li>
+          <li class="mb-2">
+            <a href="#posts" class="hover:text-gray-400 text-gray-500">Posts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  
