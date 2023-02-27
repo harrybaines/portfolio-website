@@ -11,8 +11,8 @@ Hi! I'm Harry and I'm currently on sabbatical working on projects, online course
 - I have previously worked for 2 years as a Data Scientist at [Yordas Digital](https://www.yordasgroup.com/){:target="_blank"}.
 - I studied BSc Computer Science (First Class) and MSc Data Science (Distinction) at Lancaster University.
 - During my second year at Lancaster University in 2018 I created and sold a [full-stack time management application](https://www.ca-tms.com/){:target="_blank"} to a large architecture firm as a side project. It is currently being used by over 60 employees on a daily basis.
-- I'm obsessed with productivity.
 - I like keeping up-to-date with the latest developments in AI research.
+- I'm obsessed with productivity.
 
 You can download my CV [here](/assets/CV.pdf){:target="_blank"}.
 

@@ -8,7 +8,9 @@ layout: default
             <p class="text-center text-gray-500 text-base">
                 by Harry Baines · {{ page.date | date_to_string: "ordinal", "US" }}
             </p>
-            {% include read-time.html %}
+            <p class="text-center text-base">
+                Time to read: {% include read-time.html %}
+            </p>
         </header>
         <div class="text-center mb-12">
             {% if page.demo_link != nil %}

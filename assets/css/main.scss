@@ -22,6 +22,9 @@ body {
     color: rgb(17, 24, 39);
     -webkit-font-smoothing: antialiased !important;
 }
+.post-content {
+    margin-bottom: 50px;
+}
 .post-content,
 #about-content {
     font-family: 'IBM Plex Serif';
@@ -60,7 +63,7 @@ blockquote p {
 }
 @media screen and (min-width: $lg) {
     .inner-container {
-        max-width: 62rem;
+        max-width: 56rem;
     }
 }
 // For posts and projects
@@ -235,12 +238,6 @@ figure img {
 }
 .icon i:hover {
     filter: brightness(80%);
-}
-footer {
-    // display: table;
-    // // text-align: center;
-    // margin-left: auto;
-    // margin-right: auto;
 }
 /* Code syntax highlighting */
 .highlight pre { 

@@ -1,4 +1,4 @@
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
     {% assign projects = site.projects | sort: 'weight' %}
     {% for project in projects %}
         {% include project-card.html title=project.title desc=project.desc date=project.date thumbnail=project.thumbnail url=project.url tag=project.tag demo_link=project.demo_link code_link=project.code_link %}

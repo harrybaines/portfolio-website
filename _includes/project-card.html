@@ -1,19 +1,16 @@
-<div class="bg-white rounded-sm drop-shadow-md px-7 py-6 border-l-[3px] border-sky-700">
-    <a href="{{ include.url }}" class="block mb-1 font-bold text-lg lg:text-xl hover:underline">
+<div class="bg-white rounded-sm drop-shadow px-7 py-6 border-l-[3px] border-sky-700">
+    <a href="{{ include.url }}" class="inline-block mb-2 mr-2 font-bold text-lg lg:text-xl hover:underline">
         {{ include.title }}
     </a>
-    <p class="text-slate-500 font-mono mb-3">
-        {{ include.date | date: "%Y" }}
-    </p>
-    <div class="mb-5 text-gray-700 text-sm sm:text-base md:text-base">
+    <div class="mb-5 text-gray-600 text-sm sm:text-base md:text-base">
         {{ include.desc }}
     </div>
     {% if include.demo_link != nil %}
-        {% include view-link.html demo_link=include.demo_link btn_text="Demo" new_tab=false %}
+        {% include view-link.html demo_link=include.demo_link btn_text="Demo " new_tab=true %}
     {% else %}
         {% include view-link.html demo_link=include.url btn_text="Article" new_tab=false %}
     {% endif %}
     {% if include.code_link != nil %}
-        {% include code-link.html code_link=include.code_link new_tab=false %}
+        {% include code-link.html code_link=include.code_link new_tab=true %}
     {% endif %}
 </div>
