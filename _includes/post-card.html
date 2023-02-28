@@ -6,7 +6,7 @@
         <p class="mb-4 font-normal text-gray-600 text-sm sm:text-base md:text-sm lg:text-base">
             {{ include.excerpt | strip_html | strip_newlines | truncatewords: 35 }}  
         </p>
-        <p class="sm:text-sm md:text-base text-slate-500">
+        <p class="text-xs sm:text-sm md:text-base text-slate-500">
             {{ include.date | date: "%b %d, %Y" }} ·
             {% include read-time.html %} ·
             Harry Baines
