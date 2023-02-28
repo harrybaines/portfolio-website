@@ -4,7 +4,8 @@ desc: Dreambooth Stable Diffusion to create personalised AI avatars
 date: 2023-01-18
 thumbnail: /assets/images/projects/2023-01-18-ai-avatars/avatar.png
 layout: project-page
-tag: Machine Learning
+tag: MachineLearning
+article_link: true
 code_link: https://github.com/harrybaines/ai-avatar-generator
 weight: 4
 ---

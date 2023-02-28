@@ -72,6 +72,8 @@ blockquote p {
 }
 .code-view-link {
     text-decoration: none;
+    color: rgb(37, 99, 235);
+    font-weight: 600;
 }
 .page-content {
     padding-left: 24px;
@@ -92,7 +94,7 @@ blockquote p {
 .prose {
     font-size: 16px;
     max-width: 44rem;
-    margin-bottom: 40px;
+    margin-bottom: 85px;
     margin-top: 50px;
     line-height: 30px;
     color: rgb(44, 44, 46);
@@ -116,7 +118,7 @@ blockquote p {
     }
 }
 .prose h1 {
-    margin: 100px 0px 12px 0px;
+    margin: 85px 0px 12px 0px;
 }
 .prose h2 {
     margin: 50px 0px 30px 0px;

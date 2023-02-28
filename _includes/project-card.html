@@ -1,16 +1,24 @@
-<div class="bg-white rounded-sm drop-shadow px-7 py-6 border-l-[3px] border-sky-700">
-    <a href="{{ include.url }}" class="inline-block mb-2 mr-2 font-bold text-lg lg:text-xl hover:underline">
+<div class="bg-white shadow-md rounded-lg px-6 py-7">
+    <a href="{{ include.url }}" class="inline-block mb-3 mr-2 font-semibold text-xl lg:text-1.5xl hover:underline">
         {{ include.title }}
     </a>
-    <div class="mb-5 text-gray-600 text-sm sm:text-base md:text-base">
+    <p class="mb-4 text-gray-600 text-sm sm:text-base md:text-base">
         {{ include.desc }}
+    </p>
+    <div class="mb-5">
+        <span class="inline-block bg-zinc-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+            #{{ include.tag }}
+        </span>
     </div>
-    {% if include.demo_link != nil %}
-        {% include view-link.html demo_link=include.demo_link btn_text="Demo " new_tab=true %}
-    {% else %}
-        {% include view-link.html demo_link=include.url btn_text="Article" new_tab=false %}
-    {% endif %}
-    {% if include.code_link != nil %}
-        {% include code-link.html code_link=include.code_link new_tab=true %}
-    {% endif %}
+    <div class="flex justify-between">
+        {% if include.article_link %}
+            {% include view-link.html demo_link=include.url btn_text="Post" new_tab=false %}
+        {% endif %}
+        {% if include.demo_link != nil %}
+            {% include view-link.html demo_link=include.demo_link btn_text="Demo " new_tab=true %}
+        {% endif %}
+        {% if include.code_link != nil %}
+            {% include code-link.html code_link=include.code_link new_tab=true %}
+        {% endif %}
+    </div>
 </div>
